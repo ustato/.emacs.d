@@ -251,7 +251,7 @@
   (shell-command (concat "cp ~/.emacs.d/straight/build-cache.el " (format "%S" arg) "straight/build-cache.el"))
   (shell-command (concat "cp ~/.spacemacs " (format "%S" arg) "../.spacemacs"))
   (shell-command (concat "cp ~/.viminfo " (format "%S" arg) "../.viminfo"))
-  (shell-command (concat "cp -rf ~/.emacs.d/straight/versions" (format "%S" arg) "straight/."))
+  (shell-command (concat "cp -rf ~/.emacs.d/straight/versions " (format "%S" arg) "straight/."))
   (shell-command (concat "cp -rf ~/.emacs.d/mySnippets " (format "%S" arg) "."))
   (shell-command (concat "cp -rf ~/.emacs.d/latex " (format "%S" arg) "."))
 
