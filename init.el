@@ -70,6 +70,7 @@
 ;; (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
 (package-initialize)
+(straight-normalize-all)
 
 
 (use-package markdown-mode)
