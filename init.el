@@ -240,23 +240,33 @@
 (defun my-find-file-init-el ()
   "init.elを開く"
   (interactive)
-  (find-file "~/.emacs.d/init.el"))
+  (find-file "~/.emacs.d/init.el")
+  )
 
-(defun my-backup-config (arg)
+(defun my-backup-config-to-repository (arg)
   "emacs設定のバックアップコマンド"
-  (interactive "Dto backup directory name: ")
+  (interactive "Dbackup repository path (/backup/.emacs.d): ")
   (straight-freeze-versions)
-  (shell-command (concat "cp -rf ~/.emacs.d " (format "%S" arg)))
-  (shell-command (concat "cp ~/.spacemacs " (concat (format "%S" arg) "/.spacemacs")))
-  (shell-command (concat "cp ~/.viminfo " (concat (format "%S" arg) "/.viminfo"))))
+  (shell-command (concat "cp ~/.emacs.d/init.el " (format "%S" arg) "init.el"))
+  (shell-command (concat "cp ~/.emacs.d/straight/build-cache.el " (format "%S" arg) "straight/build-cache.el"))
+  (shell-command (concat "cp ~/.emacs.d/straight/versions/default.e l" (format "%S" arg) "straight/versions/default.el"))
+  (shell-command (concat "cp ~/.spacemacs " (format "%S" arg) "../.spacemacs"))
+  (shell-command (concat "cp ~/.viminfo " (format "%S" arg) "../.viminfo"))
+  (shell-command (concat "cp -rf ~/.emacs.d/mySnippets " (format "%S" arg) "."))
+  (shell-command (concat "cp -rf ~/.emacs.d/latex " (format "%S" arg) "."))
+
+  ;; (shell-command (concat "cd " (format "%S" arg) " && git add . && git commit -m \"Updated config\" && git push origin HEAD && cd ../ && git add . && git commit -m \"Update emacs\"&& git push origin master"))
+  )
 
 (defun my-file-exists-p (arg)
   "ファイルが存在するか確認"
   (interactive "Ffile name: ")
   (message (format "%S" arg))
-  (print (file-exists-p (format "%S" arg))))
+  (print (file-exists-p (format "%S" arg)))
+  )
 
 (defun my-command (arg)
   "コマンドを呼び出す関数"
   (interactive "Srun command: ")
-  (shell-command "%S" arg))
+  (shell-command "%S" arg)
+  )
