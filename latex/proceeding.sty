@@ -1,0 +1,134 @@
+\usepackage{indentfirst}
+\usepackage{cite}
+\usepackage[dvips]{graphicx}
+
+%%% レイアウト（余白の設定）．
+%%% デフォルトの1 インチのオフセットを打ち消す．
+\setlength{\voffset}{-1truein}
+\setlength{\hoffset}{-1truein}
+%%% 上余白．
+\setlength{\topmargin}{28truemm}
+\setlength{\headheight}{0truemm}
+\setlength{\headsep}{0truemm}
+%%% 左余白．
+\setlength{\oddsidemargin}{20truemm}
+\setlength{\evensidemargin}{20truemm}
+%%% 用紙サイズ．
+\setlength{\textwidth}{169truemm}
+\setlength{\textheight}{245truemm}
+%%% 段間．
+\setlength{\columnsep}{8truemm}
+%%% 行間．
+\renewcommand{\baselinestretch}{0.90}
+
+%%% 文字間隔
+%%% http://rakasaka.fc2web.com/tex/tex.html
+\kanjiskip=.1zw plus 1pt minus 1pt
+\xkanjiskip=.1zw plus 1pt minus 1pt
+
+
+%% 発表タイトルと発表者
+\newenvironment{Center}{%
+  \topsep=0pt \partopsep=0pt%
+  \trivlist \centering\item\relax}{%
+  \endtrivlist}
+
+\def\maketitle{%
+  %% \twocolumn[
+  \vspace*{2mm}
+  \begin{Center}
+    \vspace*{-\baselineskip}
+            {\huge \bfseries \@title}
+  \end{Center}
+  \begin{flushright}
+    {\@date \\ \@author}
+  \end{flushright}
+  \vspace*{\baselineskip}
+  %% ]
+}
+
+
+%%% 章見出しの変更．
+%%% 章番号の後ろにドットを付す．
+%% \thesection を修正すると，\ref{} などにも影響してしまう．
+\makeatletter
+\def\section{%
+  \@startsection {section}{1}{\z@}%
+%  {-3.5ex plus -1ex minus -.2ex}%
+  {-2.5ex plus -1ex minus -.2ex}%
+%  {2.3ex plus .2ex}%
+  {0.3ex plus .2ex}%
+  {\edef\@svsec{\thesection.\hskip 0.5em}\large\bfseries}%
+}
+\makeatother
+
+
+%%% 太線の定義．
+%%% 2pt のところが太さ．
+\makeatletter
+\def\Hline{%
+ \noalign{\ifnum0=`}\fi\hrule \@height 2pt \futurelet
+ \reserved@a\@xhline}
+\makeatother
+
+
+%%% 箇条書きの記号の変更
+\def\labelitemi{$\bullet$}
+%% \def\labelitemii{\bf --}
+\def\labelitemii{\bf $\circ$}
+\def\labelitemiii{$\ast$}
+\def\labelitemiv{$\cdot$}
+
+
+
+%%% thebibliography 環境の再定義．
+%%% 項目間の間隔をなくす．
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{\section*{\refname\@mkboth{\refname}{\refname}}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \itemsep\z@% この行を追加
+         \parsep\z@%  この行も追加
+	 %% 文字間隔
+	 \kanjiskip=0zw plus 0pt minus 0pt
+	 \xkanjiskip=0zw plus 0pt minus 0pt
+	 %%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty\clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+\makeatother
+
+
+%%% ルビを振るときは，\usepackage{okumacro} を記述する．
+%%% 使い方
+%%% \ruby{瞬目}{しゅんぼく}
+%%% これ↑でもよいが，分けた方がより美しいバランスとなる．
+%%% \ruby{瞬}{しゅん}\ruby{目}{ぼく}
+
+
+%% \begin{namelist}{LeftmarginWidth}
+%% \item[label] body
+%% \end{namelist}
+\newcommand{\namelistlabel}[1]{\mbox{#1}\hfil}
+\newenvironment{namelist}[1]{%
+  \begin{list}{}
+    { \let \makelabel \namelistlabel
+      \setlength{\itemsep}{0mm}
+      \settowidth{\labelwidth}{#1}
+      \setlength{\leftmargin}{1.1 \labelwidth}
+    }
+}{%
+  \end{list}
+}
