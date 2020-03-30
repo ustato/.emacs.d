@@ -3,262 +3,9 @@
 
 "26.2"
 
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ("2019-08-20 18:01:17" ("emacs") (:type git :host github :repo "raxod502/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "org-elpa" ("2019-08-20 18:01:17" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2019-08-20 18:01:17" nil (:type git :host github :repo "melpa/melpa" :no-build t :package "melpa" :local-repo "melpa")) "use-package" ("2019-08-20 18:01:17" ("emacs" "bind-key") (:type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package" :package "use-package" :local-repo "use-package")) "bind-key" ("2019-08-20 18:01:17" nil (:flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :package "bind-key" :local-repo "use-package" :type git :repo "jwiegley/use-package" :host github)) "init-loader" ("2019-08-01 15:33:41" nil (:type git :flavor melpa :files ("init-loader.el" "init-loader-pkg.el") :host github :repo "emacs-jp/init-loader" :package "init-loader" :local-repo "init-loader")) "gnu-elpa-mirror" ("2019-08-20 18:01:17" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :no-build t :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "emacsmirror" ("2019-08-20 18:01:17" nil (:type git :host github :repo "emacsmirror/epkgs" :nonrecursive t :no-build t :package "emacsmirror" :local-repo "epkgs")) "company" ("2019-08-20 18:01:18" ("emacs") (:type git :flavor melpa :host github :repo "company-mode/company-mode" :package "company" :local-repo "company-mode")) "org-doing" ("2019-08-20 18:01:18" nil (:type git :flavor melpa :files (:defaults "bin" "org-doing-pkg.el") :host github :repo "rudolfolah/org-doing" :package "org-doing" :local-repo "org-doing")) "company-tabnine" ("2019-08-20 18:01:18" ("emacs" "company" "cl-lib" "dash" "s" "unicode-escape") (:type git :flavor melpa :host github :repo "TommyX12/company-tabnine" :package "company-tabnine" :local-repo "company-tabnine")) "cl-lib" ("2019-08-20 18:01:18" nil (:type git :host github :repo "emacs-straight/cl-lib" :package "cl-lib" :local-repo "cl-lib")) "dash" ("2019-08-20 18:01:18" nil (:type git :flavor melpa :files ("dash.el" "dash-pkg.el") :host github :repo "magnars/dash.el" :package "dash" :local-repo "dash.el")) "s" ("2019-08-20 18:01:18" nil (:type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el" :package "s" :local-repo "s.el")) "unicode-escape" ("2019-08-20 18:01:18" ("emacs" "names" "dash") (:type git :flavor melpa :host github :repo "kosh04/unicode-escape.el" :package "unicode-escape" :local-repo "unicode-escape.el")) "names" ("2019-08-20 18:01:18" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "Malabarba/names" :package "names" :local-repo "names")) "markdown-mode" ("2019-08-20 18:01:18" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode")) "yatex" ("2019-08-20 18:01:18" nil (:type git :host github :repo "emacsmirror/yatex" :package "yatex" :local-repo "yatex")) "company-reftex" ("2019-08-20 18:01:18" ("emacs" "s" "company") (:type git :flavor melpa :host github :repo "TheBB/company-reftex" :package "company-reftex" :local-repo "company-reftex")) "ox-latex-subfigure" ("2019-08-20 18:01:19" ("emacs") (:type git :flavor melpa :host github :repo "linktohack/ox-latex-subfigure" :package "ox-latex-subfigure" :local-repo "ox-latex-subfigure")) "ox-bibtex-chinese" ("2019-08-02 19:26:57" ("emacs") (:type git :flavor melpa :files ("*.el" "bibtex-styles" "ox-bibtex-chinese-pkg.el") :host github :repo "tumashu/ox-bibtex-chinese" :package "ox-bibtex-chinese" :local-repo "ox-bibtex-chinese")) "bibtex-mode" ("2019-08-02 18:27:26" nil (:type git :host github :repo "emacsattic/bibtex-mode" :package "bibtex-mode" :local-repo "bibtex-mode")) "company-bibtex" ("2019-08-20 18:01:18" ("company" "cl-lib" "parsebib") (:type git :flavor melpa :host github :repo "gbgar/company-bibtex" :package "company-bibtex" :local-repo "company-bibtex")) "parsebib" ("2019-08-20 18:01:18" ("emacs") (:type git :flavor melpa :host github :repo "joostkremers/parsebib" :package "parsebib" :local-repo "parsebib")) "bibtex-utils" ("2019-08-02 18:39:05" nil (:type git :flavor melpa :host github :repo "plantarum/bibtex-utils" :package "bibtex-utils" :local-repo "bibtex-utils")) "magit" ("2019-08-20 18:01:19" ("emacs" "async" "dash" "git-commit" "transient" "with-editor") (:type git :flavor melpa :files ("lisp/magit" "lisp/magit*.el" "lisp/git-rebase.el" "Documentation/magit.texi" "Documentation/AUTHORS.md" "LICENSE" (:exclude "lisp/magit-libgit.el") "magit-pkg.el") :host github :repo "magit/magit" :package "magit" :local-repo "magit")) "async" ("2019-08-20 18:01:19" nil (:type git :flavor melpa :host github :repo "jwiegley/emacs-async" :package "async" :local-repo "emacs-async")) "git-commit" ("2019-08-20 18:01:19" ("emacs" "dash" "with-editor") (:flavor melpa :files ("lisp/git-commit.el" "git-commit-pkg.el") :package "git-commit" :local-repo "magit" :type git :repo "magit/magit" :host github)) "with-editor" ("2019-08-20 18:01:19" ("emacs" "async") (:type git :flavor melpa :host github :repo "magit/with-editor" :package "with-editor" :local-repo "with-editor")) "transient" ("2019-08-20 18:01:19" ("emacs" "dash") (:type git :flavor melpa :files ("lisp/*.el" "docs/transient.texi" "transient-pkg.el") :host github :repo "magit/transient" :package "transient" :local-repo "transient")) "company-shell" ("2019-08-20 18:01:18" ("emacs" "company" "dash" "cl-lib") (:type git :flavor melpa :files ("company-shell.el" "company-shell-pkg.el") :host github :repo "Alexander-Miller/company-shell" :package "company-shell" :local-repo "company-shell")) "git-gutter+" ("2019-08-20 18:01:20" ("git-commit" "dash") (:type git :flavor melpa :files ("git-gutter+.el" "git-gutter+-pkg.el") :host github :repo "nonsequitur/git-gutter-plus" :package "git-gutter+" :local-repo "git-gutter-plus")) "git-gutter-fringe+" ("2019-08-20 18:01:20" ("git-gutter+" "fringe-helper") (:type git :flavor melpa :files ("git-gutter-fringe+.el" "git-gutter-fringe+-pkg.el") :host github :repo "nonsequitur/git-gutter-fringe-plus" :package "git-gutter-fringe+" :local-repo "git-gutter-fringe-plus")) "fringe-helper" ("2019-08-20 18:01:20" nil (:type git :flavor melpa :host github :repo "nschum/fringe-helper.el" :package "fringe-helper" :local-repo "fringe-helper.el")) "yaml-mode" ("2019-08-20 18:01:20" ("emacs") (:type git :flavor melpa :host github :repo "yoshiki/yaml-mode" :package "yaml-mode" :local-repo "yaml-mode")) "yasnippet" ("2019-08-20 18:01:20" ("cl-lib") (:type git :flavor melpa :files ("yasnippet.el" "snippets" "yasnippet-pkg.el") :host github :repo "joaotavora/yasnippet" :package "yasnippet" :local-repo "yasnippet")) "ein" (nil ("emacs" "websocket" "auto-complete" "request" "deferred" "polymode" "markdown-mode" "dash" "s" "skewer-mode")) "websocket" ("2019-08-20 17:58:04" ("cl-lib") (:type git :flavor melpa :host github :repo "ahyatt/emacs-websocket" :package "websocket" :local-repo "emacs-websocket")) "auto-complete" ("2019-08-20 17:58:04" ("popup" "cl-lib") (:type git :flavor melpa :files ("*.el" "dict" "auto-complete-pkg.el") :host github :repo "auto-complete/auto-complete" :package "auto-complete" :local-repo "auto-complete")) "popup" ("2019-08-20 17:58:04" ("cl-lib") (:type git :flavor melpa :files ("popup.el" "popup-pkg.el") :host github :repo "auto-complete/popup-el" :package "popup" :local-repo "popup-el"))))
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ("2020-03-30 23:23:53" ("emacs") (:type git :host github :repo "raxod502/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "org-elpa" ("2020-03-30 23:23:52" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2020-03-30 23:23:53" nil (:type git :host github :repo "melpa/melpa" :no-build t :package "melpa" :local-repo "melpa")) "use-package" ("2020-03-30 23:23:53" ("emacs" "bind-key") (:type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package" :package "use-package" :local-repo "use-package")) "bind-key" ("2020-03-30 23:23:53" nil (:flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :package "bind-key" :local-repo "use-package" :type git :repo "jwiegley/use-package" :host github)) "init-loader" ("2019-08-01 15:33:41" nil (:type git :flavor melpa :files ("init-loader.el" "init-loader-pkg.el") :host github :repo "emacs-jp/init-loader" :package "init-loader" :local-repo "init-loader")) "gnu-elpa-mirror" ("2020-03-30 23:23:53" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :no-build t :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "emacsmirror" ("2020-03-30 23:23:53" nil (:type git :host github :repo "emacsmirror/epkgs" :nonrecursive t :no-build t :package "emacsmirror" :local-repo "epkgs")) "company" ("2020-03-30 23:23:54" ("emacs") (:type git :flavor melpa :host github :repo "company-mode/company-mode" :package "company" :local-repo "company-mode")) "org-doing" ("2020-03-30 23:23:54" nil (:type git :flavor melpa :files (:defaults "bin" "org-doing-pkg.el") :host github :repo "rudolfolah/org-doing" :package "org-doing" :local-repo "org-doing")) "company-tabnine" ("2020-03-30 23:23:54" ("emacs" "company" "cl-lib" "dash" "s" "unicode-escape") (:type git :flavor melpa :host github :repo "TommyX12/company-tabnine" :package "company-tabnine" :local-repo "company-tabnine")) "cl-lib" ("2020-03-30 23:23:54" nil (:type git :host github :repo "emacs-straight/cl-lib" :package "cl-lib" :local-repo "cl-lib")) "dash" ("2020-03-30 23:23:54" nil (:type git :flavor melpa :files ("dash.el" "dash-pkg.el") :host github :repo "magnars/dash.el" :package "dash" :local-repo "dash.el")) "s" ("2020-03-30 23:23:54" nil (:type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el" :package "s" :local-repo "s.el")) "unicode-escape" ("2020-03-30 23:23:54" ("emacs" "names" "dash") (:type git :flavor melpa :host github :repo "kosh04/unicode-escape.el" :package "unicode-escape" :local-repo "unicode-escape.el")) "names" ("2020-03-30 23:23:54" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "Malabarba/names" :package "names" :local-repo "names")) "markdown-mode" ("2020-03-30 23:23:54" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode")) "yatex" ("2020-03-30 23:23:54" nil (:type git :host github :repo "emacsmirror/yatex" :package "yatex" :local-repo "yatex")) "company-reftex" ("2020-03-30 23:23:54" ("emacs" "s" "company") (:type git :flavor melpa :host github :repo "TheBB/company-reftex" :package "company-reftex" :local-repo "company-reftex")) "ox-latex-subfigure" ("2020-03-30 23:23:55" ("emacs") (:type git :flavor melpa :host github :repo "linktohack/ox-latex-subfigure" :package "ox-latex-subfigure" :local-repo "ox-latex-subfigure")) "ox-bibtex-chinese" ("2019-08-02 19:26:57" ("emacs") (:type git :flavor melpa :files ("*.el" "bibtex-styles" "ox-bibtex-chinese-pkg.el") :host github :repo "tumashu/ox-bibtex-chinese" :package "ox-bibtex-chinese" :local-repo "ox-bibtex-chinese")) "bibtex-mode" ("2019-08-02 18:27:26" nil (:type git :host github :repo "emacsattic/bibtex-mode" :package "bibtex-mode" :local-repo "bibtex-mode")) "company-bibtex" ("2020-03-30 23:23:54" ("company" "cl-lib" "parsebib") (:type git :flavor melpa :host github :repo "gbgar/company-bibtex" :package "company-bibtex" :local-repo "company-bibtex")) "parsebib" ("2020-03-30 23:23:54" ("emacs") (:type git :flavor melpa :host github :repo "joostkremers/parsebib" :package "parsebib" :local-repo "parsebib")) "bibtex-utils" ("2019-08-02 18:39:05" nil (:type git :flavor melpa :host github :repo "plantarum/bibtex-utils" :package "bibtex-utils" :local-repo "bibtex-utils")) "magit" ("2020-03-30 23:23:56" ("emacs" "async" "dash" "git-commit" "transient" "with-editor") (:type git :flavor melpa :files ("lisp/magit" "lisp/magit*.el" "lisp/git-rebase.el" "Documentation/magit.texi" "Documentation/AUTHORS.md" "LICENSE" (:exclude "lisp/magit-libgit.el") "magit-pkg.el") :host github :repo "magit/magit" :package "magit" :local-repo "magit")) "async" ("2020-03-30 23:23:56" nil (:type git :flavor melpa :host github :repo "jwiegley/emacs-async" :package "async" :local-repo "emacs-async")) "git-commit" ("2020-03-30 23:23:56" ("emacs" "dash" "with-editor") (:flavor melpa :files ("lisp/git-commit.el" "git-commit-pkg.el") :package "git-commit" :local-repo "magit" :type git :repo "magit/magit" :host github)) "with-editor" ("2020-03-30 23:23:56" ("emacs" "async") (:type git :flavor melpa :host github :repo "magit/with-editor" :package "with-editor" :local-repo "with-editor")) "transient" ("2020-03-30 23:23:56" ("emacs" "dash") (:type git :flavor melpa :files ("lisp/*.el" "docs/transient.texi" "transient-pkg.el") :host github :repo "magit/transient" :package "transient" :local-repo "transient")) "company-shell" ("2020-03-30 23:23:54" ("emacs" "company" "dash" "cl-lib") (:type git :flavor melpa :files ("company-shell.el" "company-shell-pkg.el") :host github :repo "Alexander-Miller/company-shell" :package "company-shell" :local-repo "company-shell")) "git-gutter+" ("2020-03-30 23:23:57" ("git-commit" "dash") (:type git :flavor melpa :files ("git-gutter+.el" "git-gutter+-pkg.el") :host github :repo "nonsequitur/git-gutter-plus" :package "git-gutter+" :local-repo "git-gutter-plus")) "git-gutter-fringe+" ("2020-03-30 23:23:57" ("git-gutter+" "fringe-helper") (:type git :flavor melpa :files ("git-gutter-fringe+.el" "git-gutter-fringe+-pkg.el") :host github :repo "nonsequitur/git-gutter-fringe-plus" :package "git-gutter-fringe+" :local-repo "git-gutter-fringe-plus")) "fringe-helper" ("2020-03-30 23:23:57" nil (:type git :flavor melpa :host github :repo "nschum/fringe-helper.el" :package "fringe-helper" :local-repo "fringe-helper.el")) "yaml-mode" ("2020-03-30 23:23:54" ("emacs") (:type git :flavor melpa :host github :repo "yoshiki/yaml-mode" :package "yaml-mode" :local-repo "yaml-mode")) "yasnippet" ("2020-03-30 23:23:57" ("cl-lib") (:type git :flavor melpa :files ("yasnippet.el" "snippets" "yasnippet-pkg.el") :host github :repo "joaotavora/yasnippet" :package "yasnippet" :local-repo "yasnippet")) "ein" ("2020-03-30 23:23:57" ("emacs" "websocket" "auto-complete" "request" "deferred" "polymode" "markdown-mode" "dash" "s" "skewer-mode") (:type git :flavor melpa :files ("lisp/*" (:exclude "lisp/zeroein.el") "ein-pkg.el") :host github :repo "millejoh/emacs-ipython-notebook" :package "ein" :local-repo "emacs-ipython-notebook")) "websocket" ("2020-03-30 23:23:57" ("cl-lib") (:type git :flavor melpa :host github :repo "ahyatt/emacs-websocket" :package "websocket" :local-repo "emacs-websocket")) "auto-complete" ("2020-03-30 23:23:57" ("popup" "cl-lib") (:type git :flavor melpa :files ("*.el" "dict" "auto-complete-pkg.el") :host github :repo "auto-complete/auto-complete" :package "auto-complete" :local-repo "auto-complete")) "popup" ("2020-03-30 23:23:57" ("cl-lib") (:type git :flavor melpa :files ("popup.el" "popup-pkg.el") :host github :repo "auto-complete/popup-el" :package "popup" :local-repo "popup-el")) "request" ("2020-03-30 23:23:57" ("emacs") (:type git :flavor melpa :files ("request.el" "request-pkg.el") :host github :repo "tkf/emacs-request" :package "request" :local-repo "emacs-request")) "jupyter" ("2020-03-30 23:23:57" ("emacs" "zmq" "cl-lib" "simple-httpd" "websocket") (:type git :flavor melpa :files (:defaults "Makefile" "widget.html" "js" "jupyter-pkg.el") :host github :repo "dzop/emacs-jupyter" :package "jupyter" :local-repo "emacs-jupyter")) "zmq" ("2020-03-30 23:23:57" ("cl-lib" "emacs") (:type git :flavor melpa :files (:defaults "Makefile" "src" "zmq-pkg.el") :host github :repo "dzop/emacs-zmq" :package "zmq" :local-repo "emacs-zmq")) "simple-httpd" ("2020-03-30 23:23:57" ("cl-lib") (:type git :flavor melpa :host github :repo "skeeto/emacs-web-server" :package "simple-httpd" :local-repo "emacs-web-server")) "git" ("2020-03-30 23:23:56" ("s" "dash" "f") (:type git :flavor melpa :host github :repo "rejeep/git.el" :package "git" :local-repo "git.el")) "f" ("2020-03-30 23:23:56" ("s" "dash") (:type git :flavor melpa :files ("f.el" "f-pkg.el") :host github :repo "rejeep/f.el" :package "f" :local-repo "f.el")) "deferred" ("2020-03-30 23:23:57" ("emacs") (:type git :flavor melpa :files ("deferred.el" "deferred-pkg.el") :host github :repo "kiwanami/emacs-deferred" :package "deferred" :local-repo "emacs-deferred")) "polymode" ("2020-03-30 23:23:57" ("emacs") (:type git :flavor melpa :host github :repo "polymode/polymode" :package "polymode" :local-repo "polymode")) "skewer-mode" ("2020-03-30 23:23:57" ("simple-httpd" "js2-mode" "emacs") (:type git :flavor melpa :files ("*.html" "*.js" "*.el" "skewer-mode-pkg.el") :host github :repo "skeeto/skewer-mode" :package "skewer-mode" :local-repo "skewer-mode")) "js2-mode" ("2020-03-30 23:23:57" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "mooz/js2-mode" :package "js2-mode" :local-repo "js2-mode")) "company-jedi" (nil ("emacs" "cl-lib" "company" "jedi-core")) "dockerfile-mode" ("2020-03-30 23:23:54" ("emacs" "s") (:type git :flavor melpa :host github :repo "spotify/dockerfile-mode" :package "dockerfile-mode" :local-repo "dockerfile-mode")) "docker-compose-mode" ("2020-03-30 23:23:54" ("emacs" "dash" "yaml-mode") (:type git :flavor melpa :files (:defaults (:exclude "docker-compose-mode-helpers.el") "docker-compose-mode-pkg.el") :host github :repo "meqif/docker-compose-mode" :package "docker-compose-mode" :local-repo "docker-compose-mode")) "docker-tramp" ("2020-03-30 23:23:54" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "emacs-pe/docker-tramp.el" :package "docker-tramp" :local-repo "docker-tramp.el")) "csv-mode" ("2020-03-30 23:23:57" ("emacs") (:type git :host github :repo "emacs-straight/csv-mode" :package "csv-mode" :local-repo "csv-mode")) "slime" ("2020-03-07 23:04:52" ("cl-lib" "macrostep") (:type git :flavor melpa :files ("*.el" ("lib" "lib/hyperspec.el") "swank" "*.lisp" "*.asd" ("contrib" "contrib/*") (:exclude "contrib/test" "contrib/Makefile") "doc/slime.texi" "doc/slime.info" "doc/dir" "ChangeLog" "slime-pkg.el") :host github :repo "slime/slime" :package "slime" :local-repo "slime")) "macrostep" ("2020-03-07 23:04:52" ("cl-lib") (:type git :flavor melpa :host github :repo "joddie/macrostep" :package "macrostep" :local-repo "macrostep")) "julia-mode" ("2020-03-07 23:05:02" nil (:type git :flavor melpa :host github :repo "JuliaEditorSupport/julia-emacs" :package "julia-mode" :local-repo "julia-emacs"))))
 
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ((straight-x straight-autoloads straight) (autoload (quote straight-get-recipe) "straight" "Interactively select a recipe from one of the recipe repositories.
-All recipe repositories in `straight-recipe-repositories' will
-first be cloned. After the recipe is selected, it will be copied
-to the kill ring. With a prefix argument, first prompt for a
-recipe repository to search. Only that repository will be
-cloned.
-
-From Lisp code, SOURCES should be a subset of the symbols in
-`straight-recipe-repositories'. Only those recipe repositories
-are cloned and searched. If it is nil or omitted, then the value
-of `straight-recipe-repositories' is used. If SOURCES is the
-symbol `interactive', then the user is prompted to select a
-recipe repository, and a list containing that recipe repository
-is used for the value of SOURCES. ACTION may be `copy' (copy
-recipe to the kill ring), `insert' (insert at point), or nil (no
-action, just return it).
-
-(fn &optional SOURCES ACTION)" t nil) (autoload (quote straight-use-package) "straight" "Register, clone, build, and activate a package and its dependencies.
-This is the main entry point to the functionality of straight.el.
-
-MELPA-STYLE-RECIPE is either a symbol naming a package, or a list
-whose car is a symbol naming a package and whose cdr is a
-property list containing e.g. `:type', `:local-repo', `:files',
-and VC backend specific keywords.
-
-First, the package recipe is registered with straight.el. If
-NO-CLONE is a function, then it is called with two arguments: the
-package name as a string, and a boolean value indicating whether
-the local repository for the package is available. In that case,
-the return value of the function is used as the value of NO-CLONE
-instead. In any case, if NO-CLONE is non-nil, then processing
-stops here.
-
-Otherwise, the repository is cloned, if it is missing. If
-NO-BUILD is a function, then it is called with one argument: the
-package name as a string. In that case, the return value of the
-function is used as the value of NO-BUILD instead. In any case,
-if NO-BUILD is non-nil, then processing halts here. Otherwise,
-the package is built and activated. Note that if the package
-recipe has a non-nil `:no-build' entry, then NO-BUILD is ignored
-and processing always stops before building and activation
-occurs.
-
-CAUSE is a string explaining the reason why
-`straight-use-package' has been called. It is for internal use
-only, and is used to construct progress messages. INTERACTIVE is
-non-nil if the function has been called interactively. It is for
-internal use only, and is used to determine whether to show a
-hint about how to install the package permanently.
-
-Return non-nil if package was actually installed, and nil
-otherwise (this can only happen if NO-CLONE is non-nil).
-
-(fn MELPA-STYLE-RECIPE &optional NO-CLONE NO-BUILD CAUSE INTERACTIVE)" t nil) (autoload (quote straight-register-package) "straight" "Register a package without cloning, building, or activating it.
-This function is equivalent to calling `straight-use-package'
-with a non-nil argument for NO-CLONE. It is provided for
-convenience. MELPA-STYLE-RECIPE is as for
-`straight-use-package'.
-
-(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-package-no-build) "straight" "Register and clone a package without building it.
-This function is equivalent to calling `straight-use-package'
-with nil for NO-CLONE but a non-nil argument for NO-BUILD. It is
-provided for convenience. MELPA-STYLE-RECIPE is as for
-`straight-use-package'.
-
-(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-package-lazy) "straight" "Register, build, and activate a package if it is already cloned.
-This function is equivalent to calling `straight-use-package'
-with symbol `lazy' for NO-CLONE. It is provided for convenience.
-MELPA-STYLE-RECIPE is as for `straight-use-package'.
-
-(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-recipes) "straight" "Register a recipe repository using MELPA-STYLE-RECIPE.
-This registers the recipe and builds it if it is already cloned.
-Note that you probably want the recipe for a recipe repository to
-include a non-nil `:no-build' property, to unconditionally
-inhibit the build phase.
-
-This function also adds the recipe repository to
-`straight-recipe-repositories', at the end of the list.
-
-(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-override-recipe) "straight" "Register MELPA-STYLE-RECIPE as a recipe override.
-This puts it in `straight-recipe-overrides', depending on the
-value of `straight-current-profile'.
-
-(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-check-package) "straight" "Rebuild a PACKAGE if it has been modified.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. See also `straight-rebuild-package' and
-`straight-check-all'.
-
-(fn PACKAGE)" t nil) (autoload (quote straight-check-all) "straight" "Rebuild any packages that have been modified.
-See also `straight-rebuild-all' and `straight-check-package'.
-This function should not be called during init.
-
-(fn)" t nil) (autoload (quote straight-rebuild-package) "straight" "Rebuild a PACKAGE.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument RECURSIVE, rebuild
-all dependencies as well. See also `straight-check-package' and
-`straight-rebuild-all'.
-
-(fn PACKAGE &optional RECURSIVE)" t nil) (autoload (quote straight-rebuild-all) "straight" "Rebuild all packages.
-See also `straight-check-all' and `straight-rebuild-package'.
-
-(fn)" t nil) (autoload (quote straight-prune-build-cache) "straight" "Prune the build cache.
-This means that only packages that were built in the last init
-run and subsequent interactive session will remain; other
-packages will have their build mtime information and any cached
-autoloads discarded.
-
-(fn)" nil nil) (autoload (quote straight-prune-build-directory) "straight" "Prune the build directory.
-This means that only packages that were built in the last init
-run and subsequent interactive session will remain; other
-packages will have their build directories deleted.
-
-(fn)" nil nil) (autoload (quote straight-prune-build) "straight" "Prune the build cache and build directory.
-This means that only packages that were built in the last init
-run and subsequent interactive session will remain; other
-packages will have their build mtime information discarded and
-their build directories deleted.
-
-(fn)" t nil) (autoload (quote straight-normalize-package) "straight" "Normalize a PACKAGE's local repository to its recipe's configuration.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'.
-
-(fn PACKAGE)" t nil) (autoload (quote straight-normalize-all) "straight" "Normalize all packages. See `straight-normalize-package'.
-Return a list of recipes for packages that were not successfully
-normalized. If multiple packages come from the same local
-repository, only one is normalized.
-
-PREDICATE, if provided, filters the packages that are normalized.
-It is called with the package name as a string, and should return
-non-nil if the package should actually be normalized.
-
-(fn &optional PREDICATE)" t nil) (autoload (quote straight-fetch-package) "straight" "Try to fetch a PACKAGE from the primary remote.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM,
-fetch not just from primary remote but also from upstream (for
-forked packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-fetch-package-and-deps) "straight" "Try to fetch a PACKAGE and its (transitive) dependencies.
-PACKAGE, its dependencies, their dependencies, etc. are fetched
-from their primary remotes.
-
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM,
-fetch not just from primary remote but also from upstream (for
-forked packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-fetch-all) "straight" "Try to fetch all packages from their primary remotes.
-With prefix argument FROM-UPSTREAM, fetch not just from primary
-remotes but also from upstreams (for forked packages).
-
-Return a list of recipes for packages that were not successfully
-fetched. If multiple packages come from the same local
-repository, only one is fetched.
-
-PREDICATE, if provided, filters the packages that are fetched. It
-is called with the package name as a string, and should return
-non-nil if the package should actually be fetched.
-
-(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-merge-package) "straight" "Try to merge a PACKAGE from the primary remote.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM,
-merge not just from primary remote but also from upstream (for
-forked packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-merge-package-and-deps) "straight" "Try to merge a PACKAGE and its (transitive) dependencies.
-PACKAGE, its dependencies, their dependencies, etc. are merged
-from their primary remotes.
-
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM,
-merge not just from primary remote but also from upstream (for
-forked packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-merge-all) "straight" "Try to merge all packages from their primary remotes.
-With prefix argument FROM-UPSTREAM, merge not just from primary
-remotes but also from upstreams (for forked packages).
-
-Return a list of recipes for packages that were not successfully
-merged. If multiple packages come from the same local
-repository, only one is merged.
-
-PREDICATE, if provided, filters the packages that are merged. It
-is called with the package name as a string, and should return
-non-nil if the package should actually be merged.
-
-(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-pull-package) "straight" "Try to pull a PACKAGE from the primary remote.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM, pull
-not just from primary remote but also from upstream (for forked
-packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-pull-package-and-deps) "straight" "Try to pull a PACKAGE and its (transitive) dependencies.
-PACKAGE, its dependencies, their dependencies, etc. are pulled
-from their primary remotes.
-
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'. With prefix argument FROM-UPSTREAM,
-pull not just from primary remote but also from upstream (for
-forked packages).
-
-(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-pull-all) "straight" "Try to pull all packages from their primary remotes.
-With prefix argument FROM-UPSTREAM, pull not just from primary
-remotes but also from upstreams (for forked packages).
-
-Return a list of recipes for packages that were not successfully
-pulled. If multiple packages come from the same local repository,
-only one is pulled.
-
-PREDICATE, if provided, filters the packages that are pulled. It
-is called with the package name as a string, and should return
-non-nil if the package should actually be pulled.
-
-(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-push-package) "straight" "Push a PACKAGE to its primary remote, if necessary.
-PACKAGE is a string naming a package. Interactively, select
-PACKAGE from the known packages in the current Emacs session
-using `completing-read'.
-
-(fn PACKAGE)" t nil) (autoload (quote straight-push-all) "straight" "Try to push all packages to their primary remotes.
-
-Return a list of recipes for packages that were not successfully
-pushed. If multiple packages come from the same local repository,
-only one is pushed.
-
-PREDICATE, if provided, filters the packages that are normalized.
-It is called with the package name as a string, and should return
-non-nil if the package should actually be normalized.
-
-(fn &optional PREDICATE)" t nil) (autoload (quote straight-freeze-versions) "straight" "Write version lockfiles for currently activated packages.
-This implies first pushing all packages that have unpushed local
-changes. If the package management system has been used since the
-last time the init-file was reloaded, offer to fix the situation
-by reloading the init-file again. If FORCE is
-non-nil (interactively, if a prefix argument is provided), skip
-all checks and write the lockfile anyway.
-
-Currently, writing version lockfiles requires cloning all lazily
-installed packages. Hopefully, this inconvenient requirement will
-be removed in the future.
-
-Multiple lockfiles may be written (one for each profile),
-according to the value of `straight-profiles'.
-
-(fn &optional FORCE)" t nil) (autoload (quote straight-thaw-versions) "straight" "Read version lockfiles and restore package versions to those listed.
-
-(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "straight" (quote ("straight-")))) (defvar straight-x-pinned-packages nil "List of pinned packages.") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "straight-x" (quote ("straight-x-")))) (provide (quote straight-autoloads))) "bind-key" ((bind-key-autoloads bind-key) (autoload (quote bind-key) "bind-key" "Bind KEY-NAME to COMMAND in KEYMAP (`global-map' if not passed).
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("bind-key" ((bind-key-autoloads bind-key) (autoload (quote bind-key) "bind-key" "Bind KEY-NAME to COMMAND in KEYMAP (`global-map' if not passed).
 
 KEY-NAME may be a vector, in which case it is passed straight to
 `define-key'. Or it may be a string to be interpreted as
@@ -2014,8 +1761,8 @@ When the region is active offer to drop all contained stashes.
 (fn REF)" t nil) (autoload (quote magit-stash-branch) "magit-stash" "Create and checkout a new BRANCH from STASH.
 
 (fn STASH BRANCH)" t nil) (autoload (quote magit-stash-branch-here) "magit-stash" "Create and checkout a new BRANCH and apply STASH.
-The branch is created using `magit-branch', using the current
-branch or `HEAD' as the string-point.
+The branch is created using `magit-branch-and-checkout', using the
+current branch or `HEAD' as the start-point.
 
 (fn STASH BRANCH)" t nil) (autoload (quote magit-stash-format-patch) "magit-stash" "Create a patch from STASH
 
@@ -2289,10 +2036,915 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 
 (fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "auto-complete" (quote ("auto-complete-mode" "ac-")))) (autoload (quote ac-config-default) "auto-complete-config" "
 
-(fn)" nil nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "auto-complete-config" (quote ("ac-")))) (provide (quote auto-complete-autoloads)))))
+(fn)" nil nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "auto-complete-config" (quote ("ac-")))) (provide (quote auto-complete-autoloads))) "straight" ((straight-x straight-autoloads straight) (autoload (quote straight-get-recipe) "straight" "Interactively select a recipe from one of the recipe repositories.
+All recipe repositories in `straight-recipe-repositories' will
+first be cloned. After the recipe is selected, it will be copied
+to the kill ring. With a prefix argument, first prompt for a
+recipe repository to search. Only that repository will be
+cloned.
 
-#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "use-package" nil "bind-key" nil "init-loader" nil "evil-evilified-state" nil "company" nil "org-doing" nil "company-tabnine" nil "cl-lib" nil "dash" nil "s" nil "unicode-escape" nil "names" nil "markdown-mode" nil "yatex" nil "company-reftex" nil "ox-latex" nil "ox-latex-subfigure" nil "ox-bibtex-chinese" nil "bibtex-mode" nil "reftex-mode" nil "company-bibtex" nil "parsebib" nil "bibtex-utils" nil "ox-bibtex" nil "magit" nil "async" nil "git-commit" nil "with-editor" nil "transient" nil "company-shell" nil "git-gutter+" nil "git-gutter-fringe+" nil "fringe-helper" nil "yaml-mode" nil "yasnippet" nil "ein" nil "websocket" nil "auto-complete" nil "popup" nil "request" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "use-package" (use-package :type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package") "bind-key" (bind-key :type git :flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :host github :repo "jwiegley/use-package") "init-loader" (init-loader :type git :flavor melpa :files ("init-loader.el" "init-loader-pkg.el") :host github :repo "emacs-jp/init-loader") "evil-evilified-state" nil "company" (company :type git :flavor melpa :host github :repo "company-mode/company-mode") "org-doing" (org-doing :type git :flavor melpa :files (:defaults "bin" "org-doing-pkg.el") :host github :repo "rudolfolah/org-doing") "company-tabnine" (company-tabnine :type git :flavor melpa :host github :repo "TommyX12/company-tabnine") "cl-lib" nil "dash" (dash :type git :flavor melpa :files ("dash.el" "dash-pkg.el") :host github :repo "magnars/dash.el") "s" (s :type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el") "unicode-escape" (unicode-escape :type git :flavor melpa :host github :repo "kosh04/unicode-escape.el") "names" (names :type git :flavor melpa :host github :repo "Malabarba/names") "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode") "yatex" nil "company-reftex" (company-reftex :type git :flavor melpa :host github :repo "TheBB/company-reftex") "ox-latex" nil "ox-latex-subfigure" (ox-latex-subfigure :type git :flavor melpa :host github :repo "linktohack/ox-latex-subfigure") "ox-bibtex-chinese" (ox-bibtex-chinese :type git :flavor melpa :files ("*.el" "bibtex-styles" "ox-bibtex-chinese-pkg.el") :host github :repo "tumashu/ox-bibtex-chinese") "bibtex-mode" nil "reftex-mode" nil "company-bibtex" (company-bibtex :type git :flavor melpa :host github :repo "gbgar/company-bibtex") "parsebib" (parsebib :type git :flavor melpa :host github :repo "joostkremers/parsebib") "bibtex-utils" (bibtex-utils :type git :flavor melpa :host github :repo "plantarum/bibtex-utils") "ox-bibtex" nil "magit" (magit :type git :flavor melpa :files ("lisp/magit" "lisp/magit*.el" "lisp/git-rebase.el" "Documentation/magit.texi" "Documentation/AUTHORS.md" "LICENSE" (:exclude "lisp/magit-libgit.el") "magit-pkg.el") :host github :repo "magit/magit") "async" (async :type git :flavor melpa :host github :repo "jwiegley/emacs-async") "git-commit" (git-commit :type git :flavor melpa :files ("lisp/git-commit.el" "git-commit-pkg.el") :host github :repo "magit/magit") "with-editor" (with-editor :type git :flavor melpa :host github :repo "magit/with-editor") "transient" (transient :type git :flavor melpa :files ("lisp/*.el" "docs/transient.texi" "transient-pkg.el") :host github :repo "magit/transient") "company-shell" (company-shell :type git :flavor melpa :files ("company-shell.el" "company-shell-pkg.el") :host github :repo "Alexander-Miller/company-shell") "git-gutter+" (git-gutter+ :type git :flavor melpa :files ("git-gutter+.el" "git-gutter+-pkg.el") :host github :repo "nonsequitur/git-gutter-plus") "git-gutter-fringe+" (git-gutter-fringe+ :type git :flavor melpa :files ("git-gutter-fringe+.el" "git-gutter-fringe+-pkg.el") :host github :repo "nonsequitur/git-gutter-fringe-plus") "fringe-helper" (fringe-helper :type git :flavor melpa :host github :repo "nschum/fringe-helper.el") "yaml-mode" (yaml-mode :type git :flavor melpa :host github :repo "yoshiki/yaml-mode") "yasnippet" (yasnippet :type git :flavor melpa :files ("yasnippet.el" "snippets" "yasnippet-pkg.el") :host github :repo "joaotavora/yasnippet") "ein" (ein :type git :flavor melpa :files ("lisp/*" (:exclude "lisp/zeroein.el") "ein-pkg.el") :host github :repo "millejoh/emacs-ipython-notebook") "websocket" (websocket :type git :flavor melpa :host github :repo "ahyatt/emacs-websocket") "auto-complete" (auto-complete :type git :flavor melpa :files ("*.el" "dict" "auto-complete-pkg.el") :host github :repo "auto-complete/auto-complete") "popup" (popup :type git :flavor melpa :files ("popup.el" "popup-pkg.el") :host github :repo "auto-complete/popup-el") "request" (request :type git :flavor melpa :files ("request.el" "request-pkg.el") :host github :repo "tkf/emacs-request"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "evil-evilified-state" nil "cl-lib" (cl-lib :type git :host github :repo "emacs-straight/cl-lib") "yatex" nil "ox-latex" nil "bibtex-mode" nil "reftex-mode" nil "ox-bibtex" nil)) emacsmirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "evil-evilified-state" nil "yatex" (yatex :type git :host github :repo "emacsmirror/yatex") "ox-latex" nil "bibtex-mode" (bibtex-mode :type git :host github :repo "emacsattic/bibtex-mode") "reftex-mode" nil "ox-bibtex" nil))))
+From Lisp code, SOURCES should be a subset of the symbols in
+`straight-recipe-repositories'. Only those recipe repositories
+are cloned and searched. If it is nil or omitted, then the value
+of `straight-recipe-repositories' is used. If SOURCES is the
+symbol `interactive', then the user is prompted to select a
+recipe repository, and a list containing that recipe repository
+is used for the value of SOURCES. ACTION may be `copy' (copy
+recipe to the kill ring), `insert' (insert at point), or nil (no
+action, just return it).
 
-("org-elpa" "melpa" "gnu-elpa-mirror" "emacsmirror" "straight" "emacs" "use-package" "bind-key" "markdown-mode" "cl-lib" "company" "company-tabnine" "dash" "s" "unicode-escape" "names" "company-reftex" "company-bibtex" "parsebib" "company-shell" "yatex" "org-doing" "ox-latex-subfigure" "magit" "async" "git-commit" "with-editor" "transient" "git-gutter+" "git-gutter-fringe+" "fringe-helper" "yaml-mode" "yasnippet")
+(fn &optional SOURCES ACTION)" t nil) (autoload (quote straight-use-package) "straight" "Register, clone, build, and activate a package and its dependencies.
+This is the main entry point to the functionality of straight.el.
+
+MELPA-STYLE-RECIPE is either a symbol naming a package, or a list
+whose car is a symbol naming a package and whose cdr is a
+property list containing e.g. `:type', `:local-repo', `:files',
+and VC backend specific keywords.
+
+First, the package recipe is registered with straight.el. If
+NO-CLONE is a function, then it is called with two arguments: the
+package name as a string, and a boolean value indicating whether
+the local repository for the package is available. In that case,
+the return value of the function is used as the value of NO-CLONE
+instead. In any case, if NO-CLONE is non-nil, then processing
+stops here.
+
+Otherwise, the repository is cloned, if it is missing. If
+NO-BUILD is a function, then it is called with one argument: the
+package name as a string. In that case, the return value of the
+function is used as the value of NO-BUILD instead. In any case,
+if NO-BUILD is non-nil, then processing halts here. Otherwise,
+the package is built and activated. Note that if the package
+recipe has a non-nil `:no-build' entry, then NO-BUILD is ignored
+and processing always stops before building and activation
+occurs.
+
+CAUSE is a string explaining the reason why
+`straight-use-package' has been called. It is for internal use
+only, and is used to construct progress messages. INTERACTIVE is
+non-nil if the function has been called interactively. It is for
+internal use only, and is used to determine whether to show a
+hint about how to install the package permanently.
+
+Return non-nil if package was actually installed, and nil
+otherwise (this can only happen if NO-CLONE is non-nil).
+
+(fn MELPA-STYLE-RECIPE &optional NO-CLONE NO-BUILD CAUSE INTERACTIVE)" t nil) (autoload (quote straight-register-package) "straight" "Register a package without cloning, building, or activating it.
+This function is equivalent to calling `straight-use-package'
+with a non-nil argument for NO-CLONE. It is provided for
+convenience. MELPA-STYLE-RECIPE is as for
+`straight-use-package'.
+
+(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-package-no-build) "straight" "Register and clone a package without building it.
+This function is equivalent to calling `straight-use-package'
+with nil for NO-CLONE but a non-nil argument for NO-BUILD. It is
+provided for convenience. MELPA-STYLE-RECIPE is as for
+`straight-use-package'.
+
+(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-package-lazy) "straight" "Register, build, and activate a package if it is already cloned.
+This function is equivalent to calling `straight-use-package'
+with symbol `lazy' for NO-CLONE. It is provided for convenience.
+MELPA-STYLE-RECIPE is as for `straight-use-package'.
+
+(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-use-recipes) "straight" "Register a recipe repository using MELPA-STYLE-RECIPE.
+This registers the recipe and builds it if it is already cloned.
+Note that you probably want the recipe for a recipe repository to
+include a non-nil `:no-build' property, to unconditionally
+inhibit the build phase.
+
+This function also adds the recipe repository to
+`straight-recipe-repositories', at the end of the list.
+
+(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-override-recipe) "straight" "Register MELPA-STYLE-RECIPE as a recipe override.
+This puts it in `straight-recipe-overrides', depending on the
+value of `straight-current-profile'.
+
+(fn MELPA-STYLE-RECIPE)" nil nil) (autoload (quote straight-check-package) "straight" "Rebuild a PACKAGE if it has been modified.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. See also `straight-rebuild-package' and
+`straight-check-all'.
+
+(fn PACKAGE)" t nil) (autoload (quote straight-check-all) "straight" "Rebuild any packages that have been modified.
+See also `straight-rebuild-all' and `straight-check-package'.
+This function should not be called during init.
+
+(fn)" t nil) (autoload (quote straight-rebuild-package) "straight" "Rebuild a PACKAGE.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument RECURSIVE, rebuild
+all dependencies as well. See also `straight-check-package' and
+`straight-rebuild-all'.
+
+(fn PACKAGE &optional RECURSIVE)" t nil) (autoload (quote straight-rebuild-all) "straight" "Rebuild all packages.
+See also `straight-check-all' and `straight-rebuild-package'.
+
+(fn)" t nil) (autoload (quote straight-prune-build-cache) "straight" "Prune the build cache.
+This means that only packages that were built in the last init
+run and subsequent interactive session will remain; other
+packages will have their build mtime information and any cached
+autoloads discarded.
+
+(fn)" nil nil) (autoload (quote straight-prune-build-directory) "straight" "Prune the build directory.
+This means that only packages that were built in the last init
+run and subsequent interactive session will remain; other
+packages will have their build directories deleted.
+
+(fn)" nil nil) (autoload (quote straight-prune-build) "straight" "Prune the build cache and build directory.
+This means that only packages that were built in the last init
+run and subsequent interactive session will remain; other
+packages will have their build mtime information discarded and
+their build directories deleted.
+
+(fn)" t nil) (autoload (quote straight-normalize-package) "straight" "Normalize a PACKAGE's local repository to its recipe's configuration.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'.
+
+(fn PACKAGE)" t nil) (autoload (quote straight-normalize-all) "straight" "Normalize all packages. See `straight-normalize-package'.
+Return a list of recipes for packages that were not successfully
+normalized. If multiple packages come from the same local
+repository, only one is normalized.
+
+PREDICATE, if provided, filters the packages that are normalized.
+It is called with the package name as a string, and should return
+non-nil if the package should actually be normalized.
+
+(fn &optional PREDICATE)" t nil) (autoload (quote straight-fetch-package) "straight" "Try to fetch a PACKAGE from the primary remote.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM,
+fetch not just from primary remote but also from upstream (for
+forked packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-fetch-package-and-deps) "straight" "Try to fetch a PACKAGE and its (transitive) dependencies.
+PACKAGE, its dependencies, their dependencies, etc. are fetched
+from their primary remotes.
+
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM,
+fetch not just from primary remote but also from upstream (for
+forked packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-fetch-all) "straight" "Try to fetch all packages from their primary remotes.
+With prefix argument FROM-UPSTREAM, fetch not just from primary
+remotes but also from upstreams (for forked packages).
+
+Return a list of recipes for packages that were not successfully
+fetched. If multiple packages come from the same local
+repository, only one is fetched.
+
+PREDICATE, if provided, filters the packages that are fetched. It
+is called with the package name as a string, and should return
+non-nil if the package should actually be fetched.
+
+(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-merge-package) "straight" "Try to merge a PACKAGE from the primary remote.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM,
+merge not just from primary remote but also from upstream (for
+forked packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-merge-package-and-deps) "straight" "Try to merge a PACKAGE and its (transitive) dependencies.
+PACKAGE, its dependencies, their dependencies, etc. are merged
+from their primary remotes.
+
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM,
+merge not just from primary remote but also from upstream (for
+forked packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-merge-all) "straight" "Try to merge all packages from their primary remotes.
+With prefix argument FROM-UPSTREAM, merge not just from primary
+remotes but also from upstreams (for forked packages).
+
+Return a list of recipes for packages that were not successfully
+merged. If multiple packages come from the same local
+repository, only one is merged.
+
+PREDICATE, if provided, filters the packages that are merged. It
+is called with the package name as a string, and should return
+non-nil if the package should actually be merged.
+
+(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-pull-package) "straight" "Try to pull a PACKAGE from the primary remote.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM, pull
+not just from primary remote but also from upstream (for forked
+packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-pull-package-and-deps) "straight" "Try to pull a PACKAGE and its (transitive) dependencies.
+PACKAGE, its dependencies, their dependencies, etc. are pulled
+from their primary remotes.
+
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'. With prefix argument FROM-UPSTREAM,
+pull not just from primary remote but also from upstream (for
+forked packages).
+
+(fn PACKAGE &optional FROM-UPSTREAM)" t nil) (autoload (quote straight-pull-all) "straight" "Try to pull all packages from their primary remotes.
+With prefix argument FROM-UPSTREAM, pull not just from primary
+remotes but also from upstreams (for forked packages).
+
+Return a list of recipes for packages that were not successfully
+pulled. If multiple packages come from the same local repository,
+only one is pulled.
+
+PREDICATE, if provided, filters the packages that are pulled. It
+is called with the package name as a string, and should return
+non-nil if the package should actually be pulled.
+
+(fn &optional FROM-UPSTREAM PREDICATE)" t nil) (autoload (quote straight-push-package) "straight" "Push a PACKAGE to its primary remote, if necessary.
+PACKAGE is a string naming a package. Interactively, select
+PACKAGE from the known packages in the current Emacs session
+using `completing-read'.
+
+(fn PACKAGE)" t nil) (autoload (quote straight-push-all) "straight" "Try to push all packages to their primary remotes.
+
+Return a list of recipes for packages that were not successfully
+pushed. If multiple packages come from the same local repository,
+only one is pushed.
+
+PREDICATE, if provided, filters the packages that are normalized.
+It is called with the package name as a string, and should return
+non-nil if the package should actually be normalized.
+
+(fn &optional PREDICATE)" t nil) (autoload (quote straight-freeze-versions) "straight" "Write version lockfiles for currently activated packages.
+This implies first pushing all packages that have unpushed local
+changes. If the package management system has been used since the
+last time the init-file was reloaded, offer to fix the situation
+by reloading the init-file again. If FORCE is
+non-nil (interactively, if a prefix argument is provided), skip
+all checks and write the lockfile anyway.
+
+Currently, writing version lockfiles requires cloning all lazily
+installed packages. Hopefully, this inconvenient requirement will
+be removed in the future.
+
+Multiple lockfiles may be written (one for each profile),
+according to the value of `straight-profiles'.
+
+(fn &optional FORCE)" t nil) (autoload (quote straight-thaw-versions) "straight" "Read version lockfiles and restore package versions to those listed.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "straight" (quote ("straight-")))) (defvar straight-x-pinned-packages nil "List of pinned packages.") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "straight-x" (quote ("straight-x-")))) (provide (quote straight-autoloads))) "request" ((request-autoloads request) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "request" (quote ("request-")))) (provide (quote request-autoloads))) "zmq" ((zmq zmq-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "zmq" (quote ("zmq-")))) (provide (quote zmq-autoloads))) "simple-httpd" ((simple-httpd-autoloads simple-httpd) (autoload (quote httpd-start) "simple-httpd" "Start the web server process. If the server is already
+running, this will restart the server. There is only one server
+instance per Emacs instance.
+
+(fn)" t nil) (autoload (quote httpd-stop) "simple-httpd" "Stop the web server if it is currently running, otherwise do nothing.
+
+(fn)" t nil) (autoload (quote httpd-running-p) "simple-httpd" "Return non-nil if the simple-httpd server is running.
+
+(fn)" nil nil) (autoload (quote httpd-serve-directory) "simple-httpd" "Start the web server with given `directory' as `httpd-root'.
+
+(fn DIRECTORY)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "simple-httpd" (quote ("httpd" "defservlet" "with-httpd-buffer")))) (provide (quote simple-httpd-autoloads))) "jupyter" ((jupyter-zmq-channel-comm jupyter-kernel-manager jupyter-org-client jupyter-python jupyter-messages jupyter-channel-ioloop-comm jupyter jupyter-zmq-channel-ioloop jupyter-zmq-channel ob-jupyter jupyter-javascript jupyter-tramp jupyter-base jupyter-autoloads jupyter-ioloop jupyter-mime jupyter-widget-client jupyter-env jupyter-client jupyter-rest-api jupyter-ioloop-comm jupyter-channel-ioloop jupyter-c++ jupyter-comm-layer jupyter-R jupyter-channel jupyter-server-ioloop jupyter-repl jupyter-org-extensions jupyter-kernelspec jupyter-kernel-process-manager jupyter-julia jupyter-server) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-base" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-channel" (quote ("jupyter-channel")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-channel-ioloop" (quote ("jupyter-channel-ioloop")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-channel-ioloop-comm" (quote ("jupyter-channel-ioloop-comm")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-client" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-comm-layer" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-env" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-ioloop" (quote ("jupyter-ioloop")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-ioloop-comm" (quote ("jupyter-ioloop-comm")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-julia" (quote ("jupyter-julia-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-kernel-manager" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-kernel-process-manager" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-kernelspec" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-messages" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-mime" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-org-client" (quote ("jupyter-org-")))) (autoload (quote jupyter-org-insert-src-block) "jupyter-org-extensions" "Insert a src-block above `point'.
+With prefix arg BELOW, insert it below `point'.
+
+If `point' is in a src-block use the language of the src-block and
+copy the header to the new block.
+
+If QUERY is non-nil and `point' is not in a src-block, ask for
+the language to use for the new block. Otherwise try to select a
+language based on the src-block's near `point'.
+
+(fn &optional BELOW QUERY)" t nil) (autoload (quote jupyter-org-split-src-block) "jupyter-org-extensions" "Split the current src block with point in upper block.
+
+With a prefix BELOW move point to lower block.
+
+(fn &optional BELOW)" t nil) (autoload (quote jupyter-org-execute-and-next-block) "jupyter-org-extensions" "Execute his block and jump or add a new one.
+
+If a new block is created, use the same language, switches and parameters.
+With prefix arg NEW, always insert new cell.
+
+(fn &optional NEW)" t nil) (autoload (quote jupyter-org-execute-to-point) "jupyter-org-extensions" "Execute Jupyter source blocks that start before point.
+Only execute Jupyter source blocks that have the same session.
+Non-Jupyter source blocks are evaluated conditionally.
+
+The session is selected in the following way:
+
+   * If `point' is at a Jupyter source block, use its session.
+
+   * If `point' is not at a Jupyter source block, examine the
+     source blocks before `point' and ask the user to select a
+     session if multiple exist. If there is only one session, use
+     it without asking.
+
+   * Finally, if a session could not be found, then no Jupyter
+     source blocks exist before `point'. In this case, no session
+     is selected and all the source blocks before `point' will be
+     evaluated, e.g. when all source blocks before `point' are
+     shell source blocks.
+
+NOTE: If a session could be selected, only Jupyter source blocks
+that have the same session are evaluated *without* evaluating any
+other source blocks. You can also evaluate ANY source block that
+doesn't have a Jupyter session by providing a prefix argument.
+This is useful, e.g. to evaluate shell source blocks along with
+Jupyter source blocks.
+
+(fn ANY)" t nil) (autoload (quote jupyter-org-execute-subtree) "jupyter-org-extensions" "Execute Jupyter source blocks that start before point in the current subtree.
+This function narrows the buffer to the current subtree and calls
+`jupyter-org-execute-to-point'. See that function for the meaning
+of the ANY argument.
+
+(fn ANY)" t nil) (autoload (quote jupyter-org-next-busy-src-block) "jupyter-org-extensions" "Jump to the next busy source block.
+
+With a prefix argument ARG, jump forward ARG many blocks.
+
+When BACKWARD is non-nil, jump to the previous block.
+
+(fn ARG &optional BACKWARD)" t nil) (autoload (quote jupyter-org-previous-busy-src-block) "jupyter-org-extensions" "Jump to the previous busy source block.
+
+With a prefix argument ARG, jump backward ARG many source blocks.
+
+(fn ARG)" t nil) (autoload (quote jupyter-org-inspect-src-block) "jupyter-org-extensions" "Inspect the symbol under point when in a source block.
+
+(fn)" t nil) (autoload (quote jupyter-org-restart-kernel-execute-block) "jupyter-org-extensions" "Restart the kernel of the source block where point is and execute it.
+
+(fn)" t nil) (autoload (quote jupyter-org-restart-and-execute-to-point) "jupyter-org-extensions" "Kill the kernel and run all Jupyter src-blocks to point.
+With a prefix argument, run ANY source block that doesn't have a
+Jupyter session as well.
+
+See `jupyter-org-execute-to-point' for more information on which
+source blocks are evaluated.
+
+(fn &optional ANY)" t nil) (autoload (quote jupyter-org-restart-kernel-execute-buffer) "jupyter-org-extensions" "Restart kernel and execute buffer.
+
+(fn)" t nil) (autoload (quote jupyter-org-jump-to-block) "jupyter-org-extensions" "Jump to a source block in the buffer using `ivy'.
+If narrowing is in effect, jump to a block in the narrowed region.
+Use a numeric prefix CONTEXT to specify how many lines of context to showin the
+process of selecting a source block.
+Defaults to `jupyter-org-jump-to-block-context-lines'.
+
+(fn &optional CONTEXT)" t nil) (autoload (quote jupyter-org-jump-to-visible-block) "jupyter-org-extensions" "Jump to a visible src block with avy.
+
+(fn)" t nil) (autoload (quote jupyter-org-edit-header) "jupyter-org-extensions" "Edit the src-block header in the minibuffer.
+
+(fn)" t nil) (autoload (quote jupyter-org-kill-block-and-results) "jupyter-org-extensions" "Kill the block and its results.
+
+(fn)" t nil) (autoload (quote jupyter-org-copy-block-and-results) "jupyter-org-extensions" "Copy the src block at the current point and its results.
+
+(fn)" t nil) (autoload (quote jupyter-org-clone-block) "jupyter-org-extensions" "Clone the block above the current block.
+
+If BELOW is non-nil, add the cloned block below.
+
+(fn &optional BELOW)" t nil) (autoload (quote jupyter-org-merge-blocks) "jupyter-org-extensions" "Merge the current block with the next block.
+
+(fn)" t nil) (autoload (quote jupyter-org-move-src-block) "jupyter-org-extensions" "Move source block before of after another.
+
+If BELOW is non-nil, move the block down, otherwise move it up.
+
+(fn &optional BELOW)" t nil) (autoload (quote jupyter-org-clear-all-results) "jupyter-org-extensions" "Clear all results in the buffer.
+
+(fn)" t nil) (autoload (quote jupyter-org-interrupt-kernel) "jupyter-org-extensions" "Interrupt the kernel.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-org-extensions" (quote ("jupyter-org-")))) (autoload (quote jupyter-repl-associate-buffer) "jupyter-repl" "Associate the `current-buffer' with a REPL CLIENT.
+If the `major-mode' of the `current-buffer' is the
+`jupyter-repl-lang-mode' of CLIENT, call the function
+`jupyter-repl-interaction-mode' to enable the corresponding mode.
+
+CLIENT should be the symbol `jupyter-repl-client' or the symbol
+of a subclass. If CLIENT is a buffer or the name of a buffer, use
+the `jupyter-current-client' local to the buffer.
+
+(fn CLIENT)" t nil) (defvar jupyter-repl-persistent-mode nil "Non-nil if Jupyter-Repl-Persistent mode is enabled.
+See the `jupyter-repl-persistent-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `jupyter-repl-persistent-mode'.") (custom-autoload (quote jupyter-repl-persistent-mode) "jupyter-repl" nil) (autoload (quote jupyter-repl-persistent-mode) "jupyter-repl" "Global minor mode to persist Jupyter REPL connections.
+When the `jupyter-current-client' of the current buffer is a REPL
+client, its value is propagated to all buffers switched to that
+have the same `major-mode' as the client's kernel language and
+`jupyter-repl-interaction-mode' is enabled in those buffers.
+
+(fn &optional ARG)" t nil) (autoload (quote jupyter-run-repl) "jupyter-repl" "Run a Jupyter REPL connected to a kernel with name, KERNEL-NAME.
+KERNEL-NAME will be passed to `jupyter-find-kernelspecs' and the
+first kernel found will be used to start the new kernel.
+
+With a prefix argument give a new REPL-NAME for the REPL.
+
+Optional argument ASSOCIATE-BUFFER, if non-nil, means to enable
+the REPL interaction mode by calling the function
+`jupyter-repl-interaction-mode' in the `current-buffer' and
+associate it with the REPL created. When called interactively,
+ASSOCIATE-BUFFER is set to t. If the `current-buffer's
+`major-mode' does not correspond to the language of the kernel
+started, ASSOCIATE-BUFFER has no effect.
+
+Optional argument CLIENT-CLASS is the class that will be passed
+to `jupyter-start-new-kernel' and should be a class symbol like
+the symbol `jupyter-repl-client', which is the default.
+
+When called interactively, DISPLAY the new REPL buffer.
+Otherwise, in a non-interactive call, return the REPL client
+connected to the kernel.
+
+Note, if `default-directory' is a remote directory, a kernel will
+start on the remote host by using the \"jupyter kernel\" shell
+command on the host.
+
+(fn KERNEL-NAME &optional REPL-NAME ASSOCIATE-BUFFER CLIENT-CLASS DISPLAY)" t nil) (autoload (quote jupyter-connect-repl) "jupyter-repl" "Run a Jupyter REPL using a kernel's connection FILE-OR-PLIST.
+FILE-OR-PLIST can be either a file holding the connection
+information or a property list of connection information.
+ASSOCIATE-BUFFER has the same meaning as in `jupyter-run-repl'.
+
+With a prefix argument give a new REPL-NAME for the REPL.
+
+Optional argument CLIENT-CLASS is the class of the client that
+will be used to initialize the REPL and should be a class symbol
+like the symbol `jupyter-repl-client', which is the default.
+
+Return the REPL client connected to the kernel. When called
+interactively, DISPLAY the new REPL buffer as well.
+
+(fn FILE-OR-PLIST &optional REPL-NAME ASSOCIATE-BUFFER CLIENT-CLASS DISPLAY)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-repl" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-rest-api" (quote ("jupyter-")))) (autoload (quote jupyter-server-launch-kernel) "jupyter-server" "Start a kernel on SERVER.
+
+With a prefix argument, ask to select a server if there are
+mutiple to choose from, otherwise the most recently used server
+is used as determined by `jupyter-current-server'.
+
+(fn SERVER)" t nil) (autoload (quote jupyter-run-server-repl) "jupyter-server" "On SERVER start a kernel with KERNEL-NAME.
+
+With a prefix argument, ask to select a server if there are
+mutiple to choose from, otherwise the most recently used server
+is used as determined by `jupyter-current-server'.
+
+REPL-NAME, ASSOCIATE-BUFFER, CLIENT-CLASS, and DISPLAY all have
+the same meaning as in `jupyter-run-repl'.
+
+(fn SERVER KERNEL-NAME &optional REPL-NAME ASSOCIATE-BUFFER CLIENT-CLASS DISPLAY)" t nil) (autoload (quote jupyter-connect-server-repl) "jupyter-server" "On SERVER, connect to the kernel with KERNEL-ID.
+
+With a prefix argument, ask to select a server if there are
+mutiple to choose from, otherwise the most recently used server
+is used as determined by `jupyter-current-server'.
+
+REPL-NAME, ASSOCIATE-BUFFER, CLIENT-CLASS, and DISPLAY all have
+the same meaning as in `jupyter-connect-repl'.
+
+(fn SERVER KERNEL-ID &optional REPL-NAME ASSOCIATE-BUFFER CLIENT-CLASS DISPLAY)" t nil) (autoload (quote jupyter-server-list-kernels) "jupyter-server" "Display a list of live kernels on SERVER.
+When called interactively, ask to select a SERVER when given a
+prefix argument otherwise the `jupyter-current-server' will be
+used.
+
+(fn SERVER)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-server" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-server-ioloop" (quote ("jupyter-server-")))) (defconst jupyter-tramp-file-name-handler-alist (quote ((add-name-to-file . tramp-handle-add-name-to-file) (copy-file . jupyter-tramp-copy-file) (delete-directory . jupyter-tramp-delete-directory) (delete-file . jupyter-tramp-delete-file) (directory-file-name . tramp-handle-directory-file-name) (directory-files . tramp-handle-directory-files) (directory-files-and-attributes . tramp-handle-directory-files-and-attributes) (dired-compress-file . ignore) (dired-uncache . tramp-handle-dired-uncache) (expand-file-name . jupyter-tramp-expand-file-name) (file-accessible-directory-p . tramp-handle-file-accessible-directory-p) (file-acl . ignore) (file-attributes . jupyter-tramp-file-attributes) (file-directory-p . jupyter-tramp-file-directory-p) (file-equal-p . tramp-handle-file-equal-p) (file-executable-p . tramp-handle-file-exists-p) (file-exists-p . tramp-handle-file-exists-p) (file-in-directory-p . tramp-handle-file-in-directory-p) (file-local-copy . jupyter-tramp-file-local-copy) (file-modes . tramp-handle-file-modes) (file-name-all-completions . jupyter-tramp-file-name-all-completions) (file-name-as-directory . tramp-handle-file-name-as-directory) (file-name-case-insensitive-p . tramp-handle-file-name-case-insensitive-p) (file-name-completion . tramp-handle-file-name-completion) (file-name-directory . tramp-handle-file-name-directory) (file-name-nondirectory . tramp-handle-file-name-nondirectory) (file-newer-than-file-p . tramp-handle-file-newer-than-file-p) (file-notify-add-watch . tramp-handle-file-notify-add-watch) (file-notify-rm-watch . tramp-handle-file-notify-rm-watch) (file-notify-valid-p . tramp-handle-file-notify-valid-p) (file-ownership-preserved-p . ignore) (file-readable-p . tramp-handle-file-exists-p) (file-regular-p . tramp-handle-file-regular-p) (file-remote-p . jupyter-tramp-file-remote-p) (file-selinux-context . tramp-handle-file-selinux-context) (file-symlink-p . jupyter-tramp-file-symlink-p) (file-system-info . ignore) (file-truename . tramp-handle-file-truename) (file-writable-p . jupyter-tramp-file-writable-p) (find-backup-file-name . ignore) (insert-directory . tramp-handle-insert-directory) (insert-file-contents . tramp-handle-insert-file-contents) (load . tramp-handle-load) (make-auto-save-file-name . tramp-handle-make-auto-save-file-name) (make-directory-internal . jupyter-tramp-make-directory-internal) (make-nearby-temp-file . tramp-handle-make-nearby-temp-file) (make-symbolic-link . tramp-handle-make-symbolic-link) (rename-file . jupyter-tramp-rename-file) (set-file-acl . ignore) (set-file-modes . ignore) (set-file-selinux-context . ignore) (set-file-times . ignore) (set-visited-file-modtime . tramp-handle-set-visited-file-modtime) (substitute-in-file-name . tramp-handle-substitute-in-file-name) (temporary-file-directory . tramp-handle-temporary-file-directory) (unhandled-file-name-directory . ignore) (vc-registered . ignore) (verify-visited-file-modtime . tramp-handle-verify-visited-file-modtime) (write-region . jupyter-tramp-write-region))) "Alist of handler functions for Tramp Jupyter method.
+Operations not mentioned here will be handled by the default Emacs primitives.") (defconst jupyter-tramp-methods (quote ("jpy" "jpys")) "Methods to connect Jupyter kernel servers.") (with-eval-after-load (quote tramp) (mapc (lambda (method) (add-to-list (quote tramp-methods) (list method (list (quote tramp-default-port) 8888) (list (quote tramp-tmpdir) "/tmp")))) jupyter-tramp-methods) (tramp-register-foreign-file-name-handler (quote jupyter-tramp-file-name-p) (quote jupyter-tramp-file-name-handler)) (add-to-list (quote tramp-default-host-alist) (quote ("\\`jpys?\\'" nil "localhost")))) (defsubst jupyter-tramp-file-name-method-p (method) "Return METHOD if it corresponds to a Jupyter filename method or nil." (and (string-match-p "\\`jpys?\\'" method) method)) (autoload (quote jupyter-tramp-file-name-p) "jupyter-tramp" "If FILENAME is a Jupyter filename, return its method otherwise nil.
+
+(fn FILENAME)" nil nil) (autoload (quote jupyter-tramp-file-name-handler) "jupyter-tramp" "
+
+(fn OPERATION &rest ARGS)" nil nil) (autoload (quote jupyter-tramp-file-name-from-url) "jupyter-tramp" "Return a Jupyter TRAMP filename for the root directory of a kernel server.
+The filename is based off of URL's host and port if any.
+
+(fn URL)" nil nil) (autoload (quote jupyter-tramp-url-from-file-name) "jupyter-tramp" "Return a URL string based off the method, host, and port of FILENAME.
+
+(fn FILENAME)" nil nil) (autoload (quote jupyter-tramp-server-from-file-name) "jupyter-tramp" "Return a `jupyter-server' instance based off of FILENAME's remote components.
+If the connection has not been authenticated by the server,
+attempt to authenticate the connection. Raise an error if that
+fails.
+
+(fn FILENAME)" nil nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-tramp" (quote ("jupyter-tramp-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-widget-client" (quote ("httpd/jupyter" "jupyter-widget")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-zmq-channel" (quote ("jupyter-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-zmq-channel-comm" (quote ("jupyter-zmq-channel-comm")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "jupyter-zmq-channel-ioloop" (quote ("jupyter-zmq-channel-ioloop")))) (autoload (quote org-babel-jupyter-scratch-buffer) "ob-jupyter" "Display a scratch buffer connected to the current block's session.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ob-jupyter" (quote ("org-babel-")))) (provide (quote jupyter-autoloads))) "f" ((f f-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "f" (quote ("f-")))) (provide (quote f-autoloads))) "git" ((git-autoloads git) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "git" (quote ("git-")))) (provide (quote git-autoloads))) "deferred" ((deferred deferred-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "deferred" (quote ("deferred:")))) (provide (quote deferred-autoloads))) "polymode" ((polymode-core polymode-methods polymode-tangle polymode-test-utils polymode-debug poly-lock polymode-export polymode-base polymode-weave polymode-classes polymode polymode-compat polymode-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "poly-lock" (quote ("poly-lock-")))) (autoload (quote define-polymode) "polymode" "Define a new polymode MODE.
+This macro defines command MODE and an indicator variable MODE
+which becomes t when MODE is active and nil otherwise.
+
+MODE command can be used as both major and minor mode. Using
+polymodes as minor modes makes sense when :hostmode (see below)
+is not specified, in which case polymode installs only inner
+modes and doesn't touch current major mode.
+
+Standard hook MODE-hook is run at the end of the initialization
+of each polymode buffer (both indirect and base buffers).
+
+This macro also defines the MODE-map keymap from the :keymap
+argument and PARENT-map (see below) and poly-[MODE-NAME]-polymode
+variable which holds an object of class `pm-polymode' which holds
+the entire configuration for this polymode.
+
+PARENT is either the polymode configuration object or a polymode
+mode (there is 1-to-1 correspondence between config
+objects (`pm-polymode') and mode functions). The new polymode
+MODE inherits alll the behavior from PARENT except for the
+overwrites specified by the keywords (see below). The new MODE
+runs all the hooks from the PARENT-mode and inherits its MODE-map
+from PARENT-map.
+
+DOC is an optional documentation string. If present PARENT must
+be provided, but can be nil.
+
+BODY is executed after the complete initialization of the
+polymode but before MODE-hook. It is executed once for each
+polymode buffer - host buffer on initialization and every inner
+buffer subsequently created.
+
+Before the BODY code keyword arguments (i.e. alternating keywords
+and values) are allowed. The following special keywords
+controlling the behavior of the new MODE are supported:
+
+:lighter Optional LIGHTER is displayed in the mode line when the
+   mode is on. If omitted, it defaults to the :lighter slot of
+   CONFIG object.
+
+:keymap If nil, a new MODE-map keymap is created what directly
+  inherits from the PARENT's keymap. The last keymap in the
+  inheritance chain is always `polymode-minor-mode-map'. If a
+  keymap it is used directly as it is. If a list of binding of
+  the form (KEY . BINDING) it is merged the bindings are added to
+  the newly create keymap.
+
+:after-hook A single form which is evaluated after the mode hooks
+  have been run. It should not be quoted.
+
+Other keywords are added to the `pm-polymode' configuration
+object and should be valid slots in PARENT config object or the
+root config `pm-polymode' object if PARENT is nil. By far the
+most frequently used slots are:
+
+:hostmode Symbol pointing to a `pm-host-chunkmode' object
+  specifying the behavior of the hostmode. If missing or nil,
+  MODE will behave as a minor-mode in the sense that it will
+  reuse the currently installed major mode and will install only
+  the inner modes.
+
+:innermodes List of symbols pointing to `pm-inner-chunkmode'
+  objects which specify the behavior of inner modes (or submodes).
+
+(fn MODE &optional PARENT DOC &rest BODY)" nil t) (function-put (quote define-polymode) (quote doc-string-elt) (quote 3)) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode" (quote ("pm-" "poly")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-base" (quote ("poly-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-classes" (quote ("pm-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-compat" (quote ("pm-" "polymode-" "*span*")))) (defvar-local polymode-default-inner-mode nil "Inner mode for chunks with unspecified modes.
+Intended to be used as local variable in polymode buffers. A
+special value 'host means use the host mode.") (put (quote polymode-default-inner-mode) (quote safe-local-variable) (quote symbolp)) (autoload (quote define-hostmode) "polymode-core" "Define a hostmode with name NAME.
+Optional PARENT is a name of a hostmode to be derived (cloned)
+from. If missing, the optional documentation string DOC is
+generated automatically. KEY-ARGS is a list of key-value pairs.
+See the documentation of the class `pm-host-chunkmode' for
+possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put (quote define-hostmode) (quote doc-string-elt) (quote 3)) (autoload (quote define-innermode) "polymode-core" "Ddefine an innermode with name NAME.
+Optional PARENT is a name of a innermode to be derived (cloned)
+from. If missing the optional documentation string DOC is
+generated automatically. KEY-ARGS is a list of key-value pairs.
+See the documentation of the class `pm-inner-chunkmode' for
+possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put (quote define-innermode) (quote doc-string-elt) (quote 3)) (autoload (quote define-auto-innermode) "polymode-core" "Ddefine an auto innermode with name NAME.
+Optional PARENT is a name of an auto innermode to be
+derived (cloned) from. If missing the optional documentation
+string DOC is generated automatically. KEY-ARGS is a list of
+key-value pairs. See the documentation of the class
+`pm-inner-auto-chunkmode' for possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put (quote define-auto-innermode) (quote doc-string-elt) (quote 3)) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-core" (quote ("polymode-" "*span*")))) (autoload (quote pm-debug-minor-mode) "polymode-debug" "Turns on/off useful facilities for debugging polymode.
+
+Key bindings:
+\\{pm-debug-minor-mode-map}
+
+(fn &optional ARG)" t nil) (autoload (quote pm-debug-minor-mode-on) "polymode-debug" "
+
+(fn)" nil nil) (defvar pm-debug-mode nil "Non-nil if Pm-Debug mode is enabled.
+See the `pm-debug-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `pm-debug-mode'.") (custom-autoload (quote pm-debug-mode) "polymode-debug" nil) (autoload (quote pm-debug-mode) "polymode-debug" "Toggle Pm-Debug minor mode in all buffers.
+With prefix ARG, enable Pm-Debug mode if ARG is positive;
+otherwise, disable it.  If called from Lisp, enable the mode if
+ARG is omitted or nil.
+
+Pm-Debug minor mode is enabled in all buffers where
+`pm-debug-minor-mode-on' would do it.
+See `pm-debug-minor-mode' for more information on Pm-Debug minor mode.
+
+(fn &optional ARG)" t nil) (autoload (quote pm-toggle-tracing) "polymode-debug" "Toggle polymode tracing.
+With numeric prefix toggle tracing for that LEVEL. Currently
+universal argument toggles maximum level of tracing (4). Default
+level is 3.
+
+(fn LEVEL)" t nil) (autoload (quote pm-trace) "polymode-debug" "Trace function FN.
+Use `untrace-function' to untrace or `untrace-all' to untrace all
+currently traced functions.
+
+(fn FN)" t nil) (autoload (quote pm-debug-relevant-variables) "polymode-debug" "Get the relevant polymode variables.
+If OUT-TYPE is 'buffer, print the variables in the dedicated
+buffer, if 'message issue a message, if nil just return a list of values.
+
+(fn &optional OUT-TYPE)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-debug" (quote ("pm-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-export" (quote ("pm-" "poly")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-methods" (quote ("pm-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-test-utils" (quote ("pm-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "polymode-weave" (quote ("pm-" "polymode-")))) (provide (quote polymode-autoloads))) "js2-mode" ((js2-mode js2-mode-autoloads js2-imenu-extras js2-old-indent) (autoload (quote js2-imenu-extras-setup) "js2-imenu-extras" "
+
+(fn)" nil nil) (autoload (quote js2-imenu-extras-mode) "js2-imenu-extras" "Toggle Imenu support for frameworks and structural patterns.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "js2-imenu-extras" (quote ("js2-imenu-")))) (autoload (quote js2-highlight-unused-variables-mode) "js2-mode" "Toggle highlight of unused variables.
+
+(fn &optional ARG)" t nil) (autoload (quote js2-minor-mode) "js2-mode" "Minor mode for running js2 as a background linter.
+This allows you to use a different major mode for JavaScript editing,
+such as `js-mode', while retaining the asynchronous error/warning
+highlighting features of `js2-mode'.
+
+(fn &optional ARG)" t nil) (autoload (quote js2-mode) "js2-mode" "Major mode for editing JavaScript code.
+
+(fn)" t nil) (autoload (quote js2-jsx-mode) "js2-mode" "Major mode for editing JSX code in Emacs 26 and earlier.
+
+To edit JSX code in Emacs 27, use `js-mode' as your major mode
+with `js2-minor-mode' enabled.
+
+To customize the indentation for this mode, set the SGML offset
+variables (`sgml-basic-offset' et al) locally, like so:
+
+  (defun set-jsx-indentation ()
+    (setq-local sgml-basic-offset js2-basic-offset))
+  (add-hook \\='js2-jsx-mode-hook #\\='set-jsx-indentation)
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "js2-mode" (quote ("js2-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "js2-old-indent" (quote ("js2-")))) (provide (quote js2-mode-autoloads))) "skewer-mode" ((skewer-repl skewer-setup skewer-html skewer-mode-pkg skewer-bower skewer-mode-autoloads skewer-mode skewer-css cache-table) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "cache-table" (quote ("cache-table-")))) (autoload (quote skewer-bower-refresh) "skewer-bower" "Update the package listing and packages synchronously.
+
+(fn)" t nil) (autoload (quote skewer-bower-load) "skewer-bower" "Dynamically load a library from bower into the current page.
+
+(fn PACKAGE &optional VERSION)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "skewer-bower" (quote ("skewer")))) (autoload (quote skewer-css-mode) "skewer-css" "Minor mode for interactively loading new CSS rules.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "skewer-css" (quote ("skewer-css")))) (autoload (quote skewer-html-mode) "skewer-html" "Minor mode for interactively loading new HTML.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "skewer-html" (quote ("skewer-html-")))) (autoload (quote list-skewer-clients) "skewer-mode" "List the attached browsers in a buffer.
+
+(fn)" t nil) (autoload (quote skewer-mode) "skewer-mode" "Minor mode for interacting with a browser.
+
+(fn &optional ARG)" t nil) (autoload (quote run-skewer) "skewer-mode" "Attach a browser to Emacs for a skewer JavaScript REPL. Uses
+`browse-url' to launch a browser.
+
+With a prefix arugment (C-u), it will ask the filename of the
+root document.  With two prefix arguments (C-u C-u), it will use
+the contents of the current buffer as the root document.
+
+(fn &optional ARG)" t nil) (autoload (quote skewer-run-phantomjs) "skewer-mode" "Connect an inferior PhantomJS process to Skewer, returning the process.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "skewer-mode" (quote ("skewer" "phantomjs-program-name" "httpd/skewer/")))) (autoload (quote skewer-repl--response-hook) "skewer-repl" "Catches all browser messages logging some to the REPL.
+
+(fn RESPONSE)" nil nil) (autoload (quote skewer-repl) "skewer-repl" "Start a JavaScript REPL to be evaluated in the visiting browser.
+
+(fn)" t nil) (eval-after-load (quote skewer-mode) (quote (progn (add-hook (quote skewer-response-hook) (function skewer-repl--response-hook)) (add-hook (quote skewer-repl-mode-hook) (function skewer-repl-mode-compilation-shell-hook)) (define-key skewer-mode-map (kbd "C-c C-z") (function skewer-repl))))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "skewer-repl" (quote ("skewer-" "company-skewer-repl")))) (autoload (quote skewer-setup) "skewer-setup" "Fully integrate Skewer into js2-mode, css-mode, and html-mode buffers.
+
+(fn)" nil nil) (provide (quote skewer-mode-autoloads))) "ein" ((ein-subpackages ein-ac ein-kill-ring ein-ipdb ein-iexec ein-log ein-kernelinfo ein-multilang-fontify ein-hy ein-python ein-org ein-worksheet ein-ipynb-mode poly-ein ein-pytools ein-smartrep ein-console ein-cell ein-pager ein-websocket ein-connect ein-core ein-timestamp ein-utils ein-company ein-skewer ein-notification ein-multilang ein-cell-output ein-pkg ein-file ein-classes ein-shared-output ein-jupyter ein ein-jupyterhub ein-notebook ein-kernel ein-inspector ein-scratchsheet ein-node ein-completer ob-ein ein-query ein-events ein-process ein-dev ein-pseudo-console ein-traceback ein-output-area ein-contents-api ein-helm ein-cell-edit ein-notebooklist ein-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-ac" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-cell" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-cell-edit" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-cell-output" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-classes" (quote ("ein:")))) (autoload (quote ein:company-backend) "ein-company" "
+
+(fn COMMAND &optional ARG &rest _)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-company" (quote ("ein:comp")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-completer" (quote ("ein:complet")))) (autoload (quote ein:connect-to-notebook-command) "ein-connect" "Connect to notebook.  When the prefix argument is given,
+you can choose any notebook on your server including the ones
+not yet opened.  Otherwise, already chose from already opened
+notebooks.
+
+(fn &optional NOT-YET-OPENED)" t nil) (autoload (quote ein:connect-to-notebook) "ein-connect" "Connect any buffer to notebook and its kernel.
+
+(fn NBPATH &optional BUFFER NO-RECONNECTION)" t nil) (autoload (quote ein:connect-to-notebook-buffer) "ein-connect" "Connect any buffer to opened notebook and its kernel.
+
+(fn BUFFER-OR-NAME)" t nil) (autoload (quote ein:connect-buffer-to-notebook) "ein-connect" "Connect BUFFER to NOTEBOOK.
+
+(fn NOTEBOOK &optional BUFFER NO-RECONNECTION)" nil nil) (autoload (quote ein:connect-to-default-notebook) "ein-connect" "Connect to the default notebook specified by
+`ein:connect-default-notebook'.  Set this to `python-mode-hook'
+to automatically connect any python-mode buffer to the
+notebook.
+
+(fn)" nil nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-connect" (quote ("ein:")))) (autoload (quote ein:console-open) "ein-console" "Open IPython console.
+To use this function, `ein:console-security-dir' and
+`ein:console-args' must be set properly.
+This function works best with the new python.el_ which is shipped
+with Emacs 24.2 or later.  If you don't have it, this function
+opens a \"plain\" command line interpreter (comint) buffer where
+you cannot use fancy stuff such as TAB completion.
+It should be possible to support python-mode.el.  Patches are welcome!
+
+.. _python.el: https://github.com/fgallina/python.el
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-console" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-contents-api" (quote ("ein:" "update-content-path" "*ein:content-hierarchy*")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-core" (quote ("ein:" "*ein:")))) (autoload (quote ein:dev-insert-mode-map) "ein-dev" "Insert mode-map into rst document.  For README.rst.
+
+(fn MAP-STRING)" nil nil) (autoload (quote ein:dev-start-debug) "ein-dev" "Enable EIN debugging support.
+When the prefix argument is given, debugging support for websocket
+callback (`websocket-callback-debug-on-error') is enabled.
+
+(fn)" t nil) (autoload (quote ein:dev-stop-debug) "ein-dev" "Inverse of `ein:dev-start-debug'.  Hard to maintain because it needs to match start
+
+(fn)" t nil) (autoload (quote ein:dev-bug-report-template) "ein-dev" "Open a buffer with bug report template.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-dev" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-events" (quote ("ein:events-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-file" (quote ("ein:" "*ein:file-buffername-template*")))) (autoload (quote anything-ein-kernel-history) "ein-helm" "Search kernel execution history then insert the selected one.
+
+(fn)" t nil) (autoload (quote helm-ein-kernel-history) "ein-helm" "Search kernel execution history then insert the selected one.
+
+(fn)" t nil) (autoload (quote anything-ein-notebook-buffers) "ein-helm" "Choose opened notebook using anything.el interface.
+
+(fn)" t nil) (autoload (quote helm-ein-notebook-buffers) "ein-helm" "Choose opened notebook using helm interface.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-helm" (quote ("ein:helm-")))) (autoload (quote ein:iexec-mode) "ein-iexec" "Instant cell execution minor mode.
+Code cell at point will be automatically executed after any
+change in its input area.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-iexec" (quote ("ein:iexec-")))) (autoload (quote ein:inspect-object) "ein-inspector" "
+
+(fn KERNEL OBJECT)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-inspector" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-ipdb" (quote ("ein:" "*ein:ipdb-")))) (autoload (quote ein:ipynb-mode) "ein-ipynb-mode" "A simple mode for ipynb file.
+
+(fn)" t nil) (add-to-list (quote auto-mode-alist) (quote (".*\\.ipynb\\'" . ein:ipynb-mode))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-ipynb-mode" (quote ("ein:ipynb-parent-mode")))) (autoload (quote ein:jupyter-server-start) "ein-jupyter" "Start SERVER-CMD_PATH with `--notebook-dir' NOTEBOOK-DIRECTORY.  Login after connection established unless NO-LOGIN-P is set.  LOGIN-CALLBACK takes two arguments, the buffer created by ein:notebooklist-open--finish, and the url-or-port argument of ein:notebooklist-open*.
+
+This command opens an asynchronous process running the jupyter
+notebook server and then tries to detect the url and password to
+generate automatic calls to `ein:notebooklist-login' and
+`ein:notebooklist-open'.
+
+With \\[universal-argument] prefix arg, it will prompt the user for the path to
+the jupyter executable first. Else, it will try to use the
+value of `*ein:last-jupyter-command*' or the value of the
+customizable variable `ein:jupyter-default-server-command'.
+
+Then it prompts the user for the path of the root directory
+containing the notebooks the user wants to access.
+
+The buffer named by `ein:jupyter-server-buffer-name' will contain
+the log of the running jupyter server.
+
+(fn SERVER-CMD-PATH NOTEBOOK-DIRECTORY &optional NO-LOGIN-P LOGIN-CALLBACK PORT)" t nil) (defalias (quote ein:run) (quote ein:jupyter-server-start)) (defalias (quote ein:stop) (quote ein:jupyter-server-stop)) (autoload (quote ein:jupyter-server-stop) "ein-jupyter" "
+
+(fn &optional FORCE LOG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-jupyter" (quote ("ein:" "*ein:")))) (autoload (quote ein:jupyterhub-connect) "ein-jupyterhub" "Log on to a jupyterhub server using PAM authentication. Requires jupyterhub version 0.8 or greater.  CALLBACK takes two arguments, the resulting buffer and the singleuser url-or-port
+
+(fn URL-OR-PORT USERNAME PASSWORD CALLBACK)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-jupyterhub" (quote ("ein:" "*ein:jupyterhub-connections*")))) (defalias (quote ein:kernel-url-or-port) (quote ein:$kernel-url-or-port)) (defalias (quote ein:kernel-id) (quote ein:$kernel-kernel-id)) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-kernel" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-kernelinfo" (quote ("ein:kernelinfo")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-kill-ring" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-log" (quote ("ein:")))) (autoload (quote ein:notebook-multilang-mode) "ein-multilang" "A mode for fontifying multiple languages.
+
+\\{ein:notebook-multilang-mode-map}
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-multilang" (quote ("ein:" "python-imenu-format-parent-item-jump-label")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-multilang-fontify" (quote ("ein:mlf-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-node" (quote ("ein:")))) (defalias (quote ein:notebook-name) (quote ein:$notebook-notebook-name)) (autoload (quote ein:notebook-jump-to-opened-notebook) "ein-notebook" "List all opened notebook buffers and switch to one that the user selects.
+
+(fn NOTEBOOK)" t nil) (autoload (quote ein:notebook-open) "ein-notebook" "Returns notebook at URL-OR-PORT/PATH.
+
+Note that notebook sends for its contents and won't have them right away.
+
+After the notebook is opened, CALLBACK is called as::
+
+  (funcall CALLBACK notebook created)
+
+where `created' indicates a new notebook or an existing one.
+
+(fn URL-OR-PORT PATH &optional KERNELSPEC CALLBACK ERRBACK NO-POP)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-notebook" (quote ("ein:" "*ein:notebook--pending-query*")))) (autoload (quote ein:notebooklist-enable-keepalive) "ein-notebooklist" "Enable periodic calls to the notebook server to keep long running sessions from expiring.
+By long running we mean sessions to last days, or weeks. The
+frequency of the refresh (which is very similar to a call to
+`ein:notebooklist-open`) is controlled by
+`ein:notebooklist-keepalive-refresh-time`, and is measured in
+terms of hours. If `ein:enable-keepalive' is non-nil this will
+automatically be called during calls to `ein:notebooklist-open`.
+
+(fn &optional URL-OR-PORT)" t nil) (autoload (quote ein:notebooklist-disable-keepalive) "ein-notebooklist" "Disable the notebooklist keepalive calls to the jupyter notebook server.
+
+(fn)" t nil) (autoload (quote ein:notebooklist-reload) "ein-notebooklist" "Reload current Notebook list.
+
+(fn &optional NBLIST RESYNC CALLBACK)" t nil) (autoload (quote ein:notebooklist-upload-file) "ein-notebooklist" "
+
+(fn UPLOAD-PATH)" t nil) (autoload (quote ein:notebooklist-new-notebook) "ein-notebooklist" "
+
+(fn URL-OR-PORT KERNELSPEC &optional CALLBACK NO-POP RETRY)" t nil) (autoload (quote ein:notebooklist-new-notebook-with-name) "ein-notebooklist" "Upon notebook-open, rename the notebook, then funcall CALLBACK.
+
+(fn URL-OR-PORT KERNELSPEC NAME &optional CALLBACK NO-POP)" t nil) (autoload (quote ein:notebooklist-list-paths) "ein-notebooklist" "Return all files of CONTENT-TYPE for all sessions
+
+(fn &optional CONTENT-TYPE)" nil nil) (autoload (quote ein:notebooklist-load) "ein-notebooklist" "Load notebook list but do not pop-up the notebook list buffer.
+
+For example, if you want to load notebook list when Emacs starts,
+add this in the Emacs initialization file::
+
+  (add-to-hook 'after-init-hook 'ein:notebooklist-load)
+
+or even this (if you want fast Emacs start-up)::
+
+  ;; load notebook list if Emacs is idle for 3 sec after start-up
+  (run-with-idle-timer 3 nil #'ein:notebooklist-load)
+
+You should setup `ein:url-or-port' or `ein:default-url-or-port'
+in order to make this code work.
+
+See also:
+`ein:connect-to-default-notebook', `ein:connect-default-notebook'.
+
+(fn &optional URL-OR-PORT)" nil nil) (autoload (quote ein:notebooklist-open) "ein-notebooklist" "This is now an alias for ein:notebooklist-login
+
+(fn URL-OR-PORT CALLBACK)" t nil) (defalias (quote ein:login) (quote ein:notebooklist-login)) (autoload (quote ein:notebooklist-login) "ein-notebooklist" "Deal with security before main entry of ein:notebooklist-open*.
+
+CALLBACK takes two arguments, the buffer created by ein:notebooklist-open--success
+and the url-or-port argument of ein:notebooklist-open*.
+
+(fn URL-OR-PORT CALLBACK &optional COOKIE-PLIST)" t nil) (autoload (quote ein:notebooklist-change-url-port) "ein-notebooklist" "Update the ipython/jupyter notebook server URL for all the
+notebooks currently opened from the current notebooklist buffer.
+
+This function works by calling `ein:notebook-update-url-or-port'
+on all the notebooks opened from the current notebooklist.
+
+(fn NEW-URL-OR-PORT)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-notebooklist" (quote ("ein:" "render-" "generate-breadcrumbs")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-notification" (quote ("ein:")))) (autoload (quote ein:org-open) "ein-org" "Open IPython notebook specified by LINK-PATH.
+This function is to be used for FOLLOW function of
+`org-add-link-type'.
+
+(fn LINK-PATH)" nil nil) (autoload (quote ein:org-store-link) "ein-org" "Call `org-store-link-props' when in notebook buffer.
+This function is to be used for `org-store-link-functions'.
+
+Examples::
+
+  ipynb:(:url-or-port 8888 :name \"My_Notebook\")
+  ipynb:(:url-or-port \"http://notebook-server\" :name \"My_Notebook\")
+
+Note that spaces will be escaped in org files.
+
+As how IPython development team supports multiple directory in
+IPython notebook server is unclear, it is not easy to decide the
+format for notebook links.  Current approach is to use
+S-expression based (rather verbose) serialization, so that
+extending link spec without loosing backward compatibility is
+easier.  For the examples of link format in general, see Info
+node `(org) External links' and Info node `(org) Search options'
+
+(fn)" nil nil) (eval-after-load "org" (quote (if (fboundp (quote org-link-set-parameters)) (org-link-set-parameters "ipynb" :follow (quote ein:org-open) :help-echo "Open ipython notebook." :store (quote ein:org-store-link)) (org-add-link-type "ipynb" :follow (quote ein:org-open)) (add-hook (quote org-store-link-functions) (quote ein:org-store-link))))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-org" (quote ("ein:org-goto-link")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-output-area" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-pager" (quote ("ein:pager-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-process" (quote ("ein:")))) (autoload (quote ein:pseudo-console-mode) "ein-pseudo-console" "Pseudo console mode.  Hit RET to execute code.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-pseudo-console" (quote ("ein:pseudo-console-mode-map")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-python" (quote ("ein:python-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-pytools" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-query" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-scratchsheet" (quote ("ein:scratchsheet")))) (autoload (quote ein:shared-output-pop-to-buffer) "ein-shared-output" "Open shared output buffer.
+
+(fn)" t nil) (autoload (quote ein:shared-output-show-code-cell-at-point) "ein-shared-output" "Show code cell at point in shared-output buffer.
+It is useful when the output of the cell at point is truncated.
+See also `ein:cell-max-num-outputs'.
+
+(fn)" t nil) (autoload (quote ein:shared-output-eval-string) "ein-shared-output" "Evaluate a piece of code.  Prompt will appear asking the code to run.
+This is handy when you want to execute something quickly without
+making a cell.  If the code outputs something, it will go to the
+shared output buffer.  You can open the buffer by the command
+`ein:shared-output-pop-to-buffer'.
+
+.. ARGS is passed to `ein:kernel-execute'.  Unlike `ein:kernel-execute',
+   `:silent' is `nil' by default.
+
+(fn KERNEL CODE POPUP &rest ARGS)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-shared-output" (quote ("ein:" "*ein:shared-output*")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-skewer" (quote ("ein:" "*ein:skewer-" "current-jupyter-cell-output")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-smartrep" (quote ("ein:smartrep-notebook-mode-alist")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-subpackages" (quote ("ein:completion-backend")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-timestamp" (quote ("ein:timestamp-")))) (autoload (quote ein:tb-show) "ein-traceback" "Show full traceback in traceback viewer.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-traceback" (quote ("ein:t")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-utils" (quote ("ein:")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-websocket" (quote ("ein:" "fix-request-netscape-cookie-parse")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ein-worksheet" (quote ("ein:" "hof-add")))) (if (featurep (quote org)) (let* ((orig (get (quote org-babel-load-languages) (quote custom-type))) (orig-cdr (cdr orig)) (choices (plist-get orig-cdr :key-type))) (push (quote (const :tag "Ein" ein)) (nthcdr 1 choices)) (put (quote org-babel-load-languages) (quote custom-type) (cons (car orig) (plist-put orig-cdr :key-type choices))))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ob-ein" (quote ("ob-ein-" "org-babel-edit-prep:ein" "*ob-ein-sentinel*")))) (autoload (quote poly-ein-mode) "poly-ein") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "poly-ein" (quote ("pm-" "poly-ein-" "ein:polymode")))) (provide (quote ein-autoloads))) "dockerfile-mode" ((dockerfile-mode-autoloads dockerfile-mode) (autoload (quote dockerfile-build-buffer) "dockerfile-mode" "Build an image called IMAGE-NAME based upon the buffer.
+If prefix arg NO-CACHE is set, don't cache the image.
+
+(fn IMAGE-NAME &optional NO-CACHE)" t nil) (autoload (quote dockerfile-build-no-cache-buffer) "dockerfile-mode" "Build an image called IMAGE-NAME based upon the buffer without cache.
+
+(fn IMAGE-NAME)" t nil) (autoload (quote dockerfile-mode) "dockerfile-mode" "A major mode to edit Dockerfiles.
+\\{dockerfile-mode-map}
+
+(fn)" t nil) (add-to-list (quote auto-mode-alist) (quote ("Dockerfile\\(?:\\..*\\)?\\'" . dockerfile-mode))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "dockerfile-mode" (quote ("dockerfile-")))) (provide (quote dockerfile-mode-autoloads))) "docker-compose-mode" ((docker-compose-mode docker-compose-mode-autoloads) (autoload (quote docker-compose-mode) "docker-compose-mode" "Major mode to edit docker-compose files.
+
+(fn)" t nil) (add-to-list (quote auto-mode-alist) (quote ("docker-compose[^/]*\\.yml\\'" . docker-compose-mode))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "docker-compose-mode" (quote ("docker-compose-")))) (provide (quote docker-compose-mode-autoloads))) "docker-tramp" ((docker-tramp-autoloads docker-tramp docker-tramp-compat) (defvar docker-tramp-docker-options nil "List of docker options.") (custom-autoload (quote docker-tramp-docker-options) "docker-tramp" t) (defconst docker-tramp-completion-function-alist (quote ((docker-tramp--parse-running-containers ""))) "Default list of (FUNCTION FILE) pairs to be examined for docker method.") (defconst docker-tramp-method "docker" "Method to connect docker containers.") (autoload (quote docker-tramp-cleanup) "docker-tramp" "Cleanup TRAMP cache for docker method.
+
+(fn)" t nil) (autoload (quote docker-tramp-add-method) "docker-tramp" "Add docker tramp method.
+
+(fn)" nil nil) (eval-after-load (quote tramp) (quote (progn (docker-tramp-add-method) (tramp-set-completion-function docker-tramp-method docker-tramp-completion-function-alist)))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "docker-tramp" (quote ("docker-tramp-")))) (provide (quote docker-tramp-autoloads))) "csv-mode" ((csv-mode-autoloads csv-mode) (autoload (quote csv-mode) "csv-mode" "Major mode for editing files of comma-separated value type.
+
+CSV mode is derived from `text-mode', and runs `text-mode-hook' before
+running `csv-mode-hook'.  It turns `auto-fill-mode' off by default.
+CSV mode can be customized by user options in the CSV customization
+group.  The separators are specified by the value of `csv-separators'.
+
+CSV mode commands ignore blank lines and comment lines beginning with
+the value of `csv-comment-start', which delimit \"paragraphs\".
+\"Sexp\" is re-interpreted to mean \"field\", so that `forward-sexp'
+(\\[forward-sexp]), `kill-sexp' (\\[kill-sexp]), etc. all apply to fields.
+Standard comment commands apply, such as `comment-dwim' (\\[comment-dwim]).
+
+If `font-lock-mode' is enabled then separators, quoted values and
+comment lines are highlighted using respectively `csv-separator-face',
+`font-lock-string-face' and `font-lock-comment-face'.
+
+The user interface (UI) for CSV mode commands is similar to that of
+the standard commands `sort-fields' and `sort-numeric-fields', except
+that if there is no prefix argument then the UI prompts for the field
+index or indices.  In `transient-mark-mode' only: if the region is not
+set then the UI attempts to set it to include all consecutive CSV
+records around point, and prompts for confirmation; if there is no
+prefix argument then the UI prompts for it, offering as a default the
+index of the field containing point if the region was not set
+explicitly.  The region set automatically is delimited by blank lines
+and comment lines, and the number of header lines at the beginning of
+the region given by the value of `csv-header-lines' are skipped.
+
+Sort order is controlled by `csv-descending'.
+
+CSV mode provides the following specific keyboard key bindings:
+
+\\{csv-mode-map}
+
+(fn)" t nil) (add-to-list (quote auto-mode-alist) (quote ("\\.[Cc][Ss][Vv]\\'" . csv-mode))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "csv-mode" (quote ("csv-")))) (provide (quote csv-mode-autoloads))) "macrostep" ((macrostep macrostep-autoloads macrostep-c) (autoload (quote macrostep-mode) "macrostep" "Minor mode for inline expansion of macros in Emacs Lisp source buffers.
+
+\\<macrostep-keymap>Progressively expand macro forms with \\[macrostep-expand], collapse them with \\[macrostep-collapse],
+and move back and forth with \\[macrostep-next-macro] and \\[macrostep-prev-macro].
+Use \\[macrostep-collapse-all] or collapse all visible expansions to
+quit and return to normal editing.
+
+\\{macrostep-keymap}
+
+(fn &optional ARG)" t nil) (autoload (quote macrostep-expand) "macrostep" "Expand the macro form following point by one step.
+
+Enters `macrostep-mode' if it is not already active, making the
+buffer temporarily read-only. If macrostep-mode is active and the
+form following point is not a macro form, search forward in the
+buffer and expand the next macro form found, if any.
+
+With a prefix argument, the expansion is displayed in a separate
+buffer instead of inline in the current buffer.  Setting
+`macrostep-expand-in-separate-buffer' to non-nil swaps these two
+behaviors.
+
+(fn &optional TOGGLE-SEPARATE-BUFFER)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "macrostep" (quote ("macrostep-")))) (autoload (quote macrostep-c-mode-hook) "macrostep-c" "
+
+(fn)" nil nil) (add-hook (quote c-mode-hook) (function macrostep-c-mode-hook)) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "macrostep-c" (quote ("macrostep-c-")))) (provide (quote macrostep-autoloads))) "slime" ((slime-autoloads slime-tests slime) (add-to-list (quote load-path) (directory-file-name (or (file-name-directory "/Users/hotman/.emacs.d/straight/build/slime/slime-autoloads.el") (car load-path)))) (autoload (quote slime) "slime" "Start a Lisp subprocess and connect to its Swank server." t) (autoload (quote slime-mode) "slime" "SLIME: The Superior Lisp Interaction (Minor) Mode for Emacs." t) (autoload (quote slime-connect) "slime" "Connect to a running Swank server." t) (autoload (quote slime-selector) "slime" "Select a new by type, indicated by a single character." t) (autoload (quote hyperspec-lookup) "lib/hyperspec" nil t) (autoload (quote slime-lisp-mode-hook) "slime") (autoload (quote slime-scheme-mode-hook) "slime") (defvar slime-contribs nil "A list of contrib packages to load with SLIME.") (autoload (quote slime-setup) "slime" "Setup some SLIME contribs.") (define-obsolete-variable-alias (quote slime-setup-contribs) (quote slime-contribs) "2.3.2") (add-hook (quote lisp-mode-hook) (quote slime-lisp-mode-hook)) (provide (quote slime-autoloads))) "julia-mode" ((julia-mode julia-mode-latexsubs julia-mode-autoloads) (add-to-list (quote auto-mode-alist) (quote ("\\.jl\\'" . julia-mode))) (autoload (quote julia-mode) "julia-mode" "Major mode for editing julia code.
+
+(fn)" t nil) (autoload (quote inferior-julia) "julia-mode" "Run an inferior instance of `julia' inside Emacs.
+
+(fn)" t nil) (defalias (quote run-julia) (function inferior-julia) "Run an inferior instance of `julia' inside Emacs.") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "julia-mode" (quote ("inferior-julia-" "julia-" "latexsub")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "julia-mode-latexsubs" (quote ("julia-mode-latexsubs")))) (provide (quote julia-mode-autoloads)))))
+
+#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "use-package" nil "bind-key" nil "init-loader" nil "evil-evilified-state" nil "company" nil "org-doing" nil "company-tabnine" nil "cl-lib" nil "dash" nil "s" nil "unicode-escape" nil "names" nil "markdown-mode" nil "yatex" nil "company-reftex" nil "ox-latex" nil "ox-latex-subfigure" nil "ox-bibtex-chinese" nil "bibtex-mode" nil "reftex-mode" nil "company-bibtex" nil "parsebib" nil "bibtex-utils" nil "ox-bibtex" nil "magit" nil "async" nil "git-commit" nil "with-editor" nil "transient" nil "company-shell" nil "git-gutter+" nil "git-gutter-fringe+" nil "fringe-helper" nil "yaml-mode" nil "yasnippet" nil "ein" nil "websocket" nil "auto-complete" nil "popup" nil "request" nil "jupyter" nil "zmq" nil "simple-httpd" nil "git" nil "f" nil "deferred" nil "polymode" nil "skewer-mode" nil "js2-mode" nil "company-jedi" nil "jedi-core" nil "dockerfile-mode" nil "docker-compose-mode" nil "docker-tramp" nil "csv-mode" nil "slime" nil "macrostep" nil "julia-mode" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "use-package" (use-package :type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package") "bind-key" (bind-key :type git :flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :host github :repo "jwiegley/use-package") "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode") "cl-lib" nil "company" (company :type git :flavor melpa :host github :repo "company-mode/company-mode") "company-tabnine" (company-tabnine :type git :flavor melpa :host github :repo "TommyX12/company-tabnine") "dash" (dash :type git :flavor melpa :files ("dash.el" "dash-pkg.el") :host github :repo "magnars/dash.el") "s" (s :type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el") "unicode-escape" (unicode-escape :type git :flavor melpa :host github :repo "kosh04/unicode-escape.el") "names" (names :type git :flavor melpa :host github :repo "Malabarba/names") "company-reftex" (company-reftex :type git :flavor melpa :host github :repo "TheBB/company-reftex") "company-bibtex" (company-bibtex :type git :flavor melpa :host github :repo "gbgar/company-bibtex") "parsebib" (parsebib :type git :flavor melpa :host github :repo "joostkremers/parsebib") "company-shell" (company-shell :type git :flavor melpa :files ("company-shell.el" "company-shell-pkg.el") :host github :repo "Alexander-Miller/company-shell") "yatex" nil "org-doing" (org-doing :type git :flavor melpa :files (:defaults "bin" "org-doing-pkg.el") :host github :repo "rudolfolah/org-doing") "ox-latex-subfigure" (ox-latex-subfigure :type git :flavor melpa :host github :repo "linktohack/ox-latex-subfigure") "magit" (magit :type git :flavor melpa :files ("lisp/magit" "lisp/magit*.el" "lisp/git-rebase.el" "Documentation/magit.texi" "Documentation/AUTHORS.md" "LICENSE" (:exclude "lisp/magit-libgit.el") "magit-pkg.el") :host github :repo "magit/magit") "async" (async :type git :flavor melpa :host github :repo "jwiegley/emacs-async") "git-commit" (git-commit :type git :flavor melpa :files ("lisp/git-commit.el" "git-commit-pkg.el") :host github :repo "magit/magit") "with-editor" (with-editor :type git :flavor melpa :host github :repo "magit/with-editor") "transient" (transient :type git :flavor melpa :files ("lisp/*.el" "docs/transient.texi" "transient-pkg.el") :host github :repo "magit/transient") "git-gutter+" (git-gutter+ :type git :flavor melpa :files ("git-gutter+.el" "git-gutter+-pkg.el") :host github :repo "nonsequitur/git-gutter-plus") "git-gutter-fringe+" (git-gutter-fringe+ :type git :flavor melpa :files ("git-gutter-fringe+.el" "git-gutter-fringe+-pkg.el") :host github :repo "nonsequitur/git-gutter-fringe-plus") "fringe-helper" (fringe-helper :type git :flavor melpa :host github :repo "nschum/fringe-helper.el") "yaml-mode" (yaml-mode :type git :flavor melpa :host github :repo "yoshiki/yaml-mode") "yasnippet" (yasnippet :type git :flavor melpa :files ("yasnippet.el" "snippets" "yasnippet-pkg.el") :host github :repo "joaotavora/yasnippet") "ein" (ein :type git :flavor melpa :files ("lisp/*" (:exclude "lisp/zeroein.el") "ein-pkg.el") :host github :repo "millejoh/emacs-ipython-notebook") "websocket" (websocket :type git :flavor melpa :host github :repo "ahyatt/emacs-websocket") "auto-complete" (auto-complete :type git :flavor melpa :files ("*.el" "dict" "auto-complete-pkg.el") :host github :repo "auto-complete/auto-complete") "popup" (popup :type git :flavor melpa :files ("popup.el" "popup-pkg.el") :host github :repo "auto-complete/popup-el") "request" (request :type git :flavor melpa :files ("request.el" "request-pkg.el") :host github :repo "tkf/emacs-request") "jupyter" (jupyter :type git :flavor melpa :files (:defaults "Makefile" "widget.html" "js" "jupyter-pkg.el") :host github :repo "dzop/emacs-jupyter") "zmq" (zmq :type git :flavor melpa :files (:defaults "Makefile" "src" "zmq-pkg.el") :host github :repo "dzop/emacs-zmq") "simple-httpd" (simple-httpd :type git :flavor melpa :host github :repo "skeeto/emacs-web-server") "git" (git :type git :flavor melpa :host github :repo "rejeep/git.el") "f" (f :type git :flavor melpa :files ("f.el" "f-pkg.el") :host github :repo "rejeep/f.el") "deferred" (deferred :type git :flavor melpa :files ("deferred.el" "deferred-pkg.el") :host github :repo "kiwanami/emacs-deferred") "polymode" (polymode :type git :flavor melpa :host github :repo "polymode/polymode") "skewer-mode" (skewer-mode :type git :flavor melpa :files ("*.html" "*.js" "*.el" "skewer-mode-pkg.el") :host github :repo "skeeto/skewer-mode") "js2-mode" (js2-mode :type git :flavor melpa :host github :repo "mooz/js2-mode") "evil-evilified-state" nil "company-jedi" (company-jedi :type git :flavor melpa :host github :repo "syohex/emacs-company-jedi") "jedi-core" (jedi-core :type git :flavor melpa :files ("jedi-core.el" "jediepcserver.py" "Makefile" "setup.py" "jedi-core-pkg.el") :host github :repo "tkf/emacs-jedi") "dockerfile-mode" (dockerfile-mode :type git :flavor melpa :host github :repo "spotify/dockerfile-mode") "docker-compose-mode" (docker-compose-mode :type git :flavor melpa :files (:defaults (:exclude "docker-compose-mode-helpers.el") "docker-compose-mode-pkg.el") :host github :repo "meqif/docker-compose-mode") "docker-tramp" (docker-tramp :type git :flavor melpa :host github :repo "emacs-pe/docker-tramp.el") "csv-mode" nil "slime" (slime :type git :flavor melpa :files ("*.el" ("lib" "lib/hyperspec.el") "swank" "*.lisp" "*.asd" ("contrib" "contrib/*") (:exclude "contrib/test" "contrib/Makefile") "doc/slime.texi" "doc/slime.info" "doc/dir" "ChangeLog" "slime-pkg.el") :host github :repo "slime/slime") "macrostep" (macrostep :type git :flavor melpa :host github :repo "joddie/macrostep") "julia-mode" (julia-mode :type git :flavor melpa :host github :repo "JuliaEditorSupport/julia-emacs"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "cl-lib" (cl-lib :type git :host github :repo "emacs-straight/cl-lib") "yatex" nil "evil-evilified-state" nil "csv-mode" (csv-mode :type git :host github :repo "emacs-straight/csv-mode"))) emacsmirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "yatex" (yatex :type git :host github :repo "emacsmirror/yatex") "evil-evilified-state" nil))))
+
+("org-elpa" "melpa" "gnu-elpa-mirror" "emacsmirror" "straight" "emacs" "use-package" "bind-key" "markdown-mode" "cl-lib" "company" "company-tabnine" "dash" "s" "unicode-escape" "names" "company-reftex" "company-bibtex" "parsebib" "company-shell" "dockerfile-mode" "docker-compose-mode" "yaml-mode" "docker-tramp" "yatex" "org-doing" "ox-latex-subfigure" "git" "f" "magit" "async" "git-commit" "with-editor" "transient" "git-gutter+" "git-gutter-fringe+" "fringe-helper" "yasnippet" "ein" "websocket" "auto-complete" "popup" "request" "deferred" "polymode" "skewer-mode" "simple-httpd" "js2-mode" "csv-mode" "jupyter" "zmq")
 
 t
