@@ -70,7 +70,11 @@
 ;; (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
 (package-initialize)
+<<<<<<< HEAD
 ;; (straight-normalize-all)
+=======
+(straight-normalize-all)
+>>>>>>> cee7499319d6679b2c0a8c546a954d449eb0c188
 
 
 (use-package markdown-mode)
@@ -385,4 +389,7 @@
   (interactive "Srun command: ")
   (shell-command "%S" arg)
   )
+<<<<<<< HEAD
 
+=======
+>>>>>>> cee7499319d6679b2c0a8c546a954d449eb0c188

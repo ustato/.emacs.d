@@ -5,6 +5,7 @@
  ("company-reftex" . "33935e96540201adab43f3a765d62289eba9e286")
  ("company-shell" . "6ae625f80d90e0779c79de38e8f83a336c1d00fa")
  ("company-tabnine" . "35f758bff33e9d50535d23eaddb6d6ecdc03bf7d")
+<<<<<<< HEAD
  ("csv-mode" . "82ec757156052e53572db1957560eb9423d99777")
  ("dash.el" . "11907f4592ff1813536366d54245d3ecf6b99198")
  ("docker-compose-mode" . "c9f131d2c90d652435d407fd36c40feebfed1dad")
@@ -26,6 +27,15 @@
  ("git.el" . "a3396a7027a7d986598c6a2d6d5599bac918f3da")
  ("gnu-elpa-mirror" . "01001b660cd3677228e25a6f544d579b56845c37")
  ("js2-mode" . "b3841a7a304d9d1328fdb0868fbbecf0c2f9831f")
+=======
+ ("dash.el" . "11907f4592ff1813536366d54245d3ecf6b99198")
+ ("emacs-async" . "bd68cc1ab1ac6af890e250bdaa12ffb1cb9649be")
+ ("epkgs" . "d7969ba09efe139d107f17464bfa9f99b86bdf5e")
+ ("fringe-helper.el" . "ef4a9c023bae18ec1ddd7265f1f2d6d2e775efdd")
+ ("git-gutter-fringe-plus" . "7a2f49d2455a3a872e90e5f7dd4e6b27f1d96cfc")
+ ("git-gutter-plus" . "b7726997806d9a2da9fe84ff00ecf21d62b6f975")
+ ("gnu-elpa-mirror" . "01001b660cd3677228e25a6f544d579b56845c37")
+>>>>>>> cee7499319d6679b2c0a8c546a954d449eb0c188
  ("magit" . "546a9c33715f12a9b1101eca22b070004c9c6392")
  ("markdown-mode" . "f3c54e34cc5228001af36a5301883325319f21d4")
  ("melpa" . "6fe35f90b858d0b6710b4bae8a2b80f97f1b8228")
