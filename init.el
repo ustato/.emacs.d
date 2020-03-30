@@ -370,7 +370,7 @@
   (shell-command (concat "cp -rf ~/.emacs.d/mySnippets " (format "%S" arg) ".emacs.d/."))
   (shell-command (concat "cp -rf ~/.emacs.d/latex " (format "%S" arg) ".emacs.d/."))
 
-  (shell-command (concat "cd " (format "%S" arg) " && git submodule foreach git add -A && git submodule foreach git commit -m \"Updated config\" && git add -A && git commit -m \"Update emacs\" && git push && cd .emacs.d && git push"))
+  (shell-command (concat "cd " (format "%S" arg) " && git submodule foreach git add -A && git submodule foreach git commit -m \"Updated config\" && git add -A && git commit -m \"Update emacs\" && git push && cd .emacs.d && git push origin HEAD:master"))
   )
 
 (defun my-file-exists-p (arg)
