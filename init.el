@@ -360,17 +360,17 @@
 
 (defun my-backup-config-to-repository (arg)
   "emacs設定のバックアップコマンド"
-  (interactive "Dbackup repository path (/backup/HOME/.emacs.d): ")
+  (interactive "Dbackup repository path (/backup/HOME): ")
   (straight-freeze-versions)
-  (shell-command (concat "cp ~/.emacs.d/init.el " (format "%S" arg) "/init.el"))
-  (shell-command (concat "cp ~/.emacs.d/straight/build-cache.el " (format "%S" arg) "/straight/build-cache.el"))
-  (shell-command (concat "cp ~/.spacemacs " (format "%S" arg) "/../.spacemacs"))
-  (shell-command (concat "cp ~/.viminfo " (format "%S" arg) "/../.viminfo"))
-  (shell-command (concat "cp -rf ~/.emacs.d/straight/versions " (format "%S" arg) "/straight/."))
-  (shell-command (concat "cp -rf ~/.emacs.d/mySnippets " (format "%S" arg) "/."))
-  (shell-command (concat "cp -rf ~/.emacs.d/latex " (format "%S" arg) "/."))
+  (shell-command (concat "cp ~/.emacs.d/init.el " (format "%S" arg) ".emacs.d/init.el"))
+  (shell-command (concat "cp ~/.emacs.d/straight/build-cache.el " (format "%S" arg) ".emacs.d/straight/build-cache.el"))
+  (shell-command (concat "cp ~/.spacemacs " (format "%S" arg) "/.spacemacs"))
+  (shell-command (concat "cp ~/.viminfo " (format "%S" arg) "/.viminfo"))
+  (shell-command (concat "cp -rf ~/.emacs.d/straight/versions " (format "%S" arg) ".emacs.d/straight/."))
+  (shell-command (concat "cp -rf ~/.emacs.d/mySnippets " (format "%S" arg) ".emacs.d/."))
+  (shell-command (concat "cp -rf ~/.emacs.d/latex " (format "%S" arg) ".emacs.d/."))
 
-  (shell-command (concat "cd " (format "%S" arg) "../ && git submodule foreach git add -A && git submodule foreach git commit -m \"Updated config\" && git add -A && git commit -m \"Update emacs\" && git push && cd .emacs.d && git push"))
+  (shell-command (concat "cd " (format "%S" arg) " && git submodule foreach git add -A && git submodule foreach git commit -m \"Updated config\" && git add -A && git commit -m \"Update emacs\" && git push && cd .emacs.d && git push"))
   )
 
 (defun my-file-exists-p (arg)
